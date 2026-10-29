@@ -1,0 +1,83 @@
+{
+  "proveedor": "elevenlabs",
+  "azure": {
+    "region": "",
+    "formato": "audio-24khz-96kbitrate-mono-mp3",
+    "vozFemenina": "es-CL-CatalinaNeural",
+    "vozMasculina": "es-CL-LorenzoNeural",
+    "voces": {
+      "claudia": "",
+      "jonathan": "",
+      "rodrigo": "",
+      "marcelo": "",
+      "felipe": "",
+      "carmen": "",
+      "hector": "",
+      "andrea": "",
+      "luis": "",
+      "ricardo": "",
+      "rosa": "",
+      "kevin": "",
+      "tomas": "",
+      "rodrigo-s": "",
+      "brayan": "",
+      "marisol": "",
+      "sergio": "",
+      "valentina": "",
+      "ignacio": "",
+      "oscar": ""
+    }
+  },
+  "openai": {
+    "modelo": "gpt-4o-mini-tts",
+    "voces": {
+      "claudia": "marin",
+      "jonathan": "verse",
+      "rodrigo": "onyx",
+      "marcelo": "cedar",
+      "felipe": "ash",
+      "carmen": "sage",
+      "hector": "ballad",
+      "andrea": "coral",
+      "luis": "onyx",
+      "ricardo": "ash",
+      "rosa": "sage",
+      "kevin": "verse",
+      "tomas": "echo",
+      "rodrigo-s": "cedar",
+      "brayan": "verse",
+      "marisol": "nova",
+      "sergio": "onyx",
+      "valentina": "coral",
+      "ignacio": "echo",
+      "oscar": "ash"
+    }
+  },
+  "elevenlabs": {
+    "modelo": "eleven_v3",
+    "estabilidad": 0.5,
+    "formato": "mp3_44100_64",
+    "voces": {
+      "claudia": "",
+      "jonathan": "",
+      "rodrigo": "",
+      "marcelo": "",
+      "felipe": "",
+      "carmen": "",
+      "hector": "",
+      "andrea": "",
+      "luis": "",
+      "ricardo": "",
+      "rosa": "",
+      "kevin": "",
+      "tomas": "",
+      "rodrigo-s": "",
+      "brayan": "",
+      "marisol": "",
+      "sergio": "",
+      "valentina": "",
+      "ignacio": "",
+      "oscar": ""
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useSim } from '../contexto';
+import { claveAudio } from '../lib/claves';
 import { Avatar, BotonVoz, CabeceraPaso, NavPasos, leer } from '../components/ui';
 
 export function Briefing() {
@@ -7,7 +8,7 @@ export function Briefing() {
   const gerente = esc.personajes.find((p) => p.id === esc.briefing.personajeId)!;
 
   useEffect(() => {
-    if (vozAuto) leer('briefing', esc.briefing.texto, gerente.voz, gerente.id);
+    if (vozAuto) leer('briefing', esc.briefing.texto, gerente.voz, gerente.id, claveAudio.briefing(esc.id));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -29,7 +30,7 @@ export function Briefing() {
                 {gerente.cargo} · {gerente.organizacion}
               </div>
             </div>
-            <BotonVoz clave="briefing" parrafos={esc.briefing.texto} voz={gerente.voz} idPersonaje={gerente.id} />
+            <BotonVoz clave="briefing" parrafos={esc.briefing.texto} voz={gerente.voz} idPersonaje={gerente.id} audio={claveAudio.briefing(esc.id)} />
           </div>
           {esc.briefing.texto.map((t, i) => (
             <p key={i}>{t}</p>

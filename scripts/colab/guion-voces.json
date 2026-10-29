@@ -1,0 +1,3617 @@
+{
+ "version": 1,
+ "generado": "2026-10-29T22:30:19.339Z",
+ "clips": [
+  {
+   "clave": "ultima-milla/briefing",
+   "h": "8b7d8b1e",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": true,
+   "parrafos": [
+    "Buenas tardes, equipo. Soy Claudia Fuentes, gerenta de operaciones de Despachos Cordillera.",
+    "Repartimos pedidos de comercio electrónico desde nuestro cross-dock en Quilicura a dieciocho comunas de Santiago, con veintidós furgones arrendados.",
+    "Tenemos un problema serio. El cumplimiento de entregas a tiempo se nos vino abajo, los reclamos se triplicaron y Tiendas Lumen, nuestro cliente más antiguo, nos amenaza con licitar el servicio.",
+    "Ya amonestamos a varios conductores y autoricé horas extra sin tope, pero no mejora nada, y el costo por entrega se está disparando.",
+    "Necesito que ustedes revisen los indicadores del último mes, conversen con la gente y encuentren la causa raíz. No quiero un culpable: quiero entender qué está pasando de verdad."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/saludo",
+   "h": "83039cfb",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": true,
+   "parrafos": [
+    "Hola, pasen. Tengo una reunión con el directorio en media hora, así que vamos al grano. ¿Qué necesitan saber?"
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c1",
+   "h": "f7685ce3",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Tiendas Lumen. Son el treinta por ciento de nuestra facturación y llevan semanas reclamando. Si licitan el servicio, perdemos al cliente más importante.",
+    "Y las horas extra. Cada día que pasa el costo por entrega sube."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c2",
+   "h": "14c14899",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Diría que desde la segunda semana del período. Los reclamos se dispararon. No tengo el día exacto en la cabeza, para eso están los datos. Revísenlos."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c3",
+   "h": "c6188602",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Nada relevante, la verdad. Entraron conductores nuevos, la rotación de siempre.",
+    "Ah, y ganamos un cliente nuevo, MercaHogar, que es un tremendo logro comercial. Pero el modelo operativo es exactamente el mismo."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c4",
+   "h": "51c01bcf",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Comercial cerró el contrato y me mandó un correo con el volumen estimado: mil doscientos pedidos semanales. Lo revisé rápido y pensé: con veintidós furgones tenemos capacidad de sobra.",
+    "No hubo reunión técnica, si es lo que preguntan. Siempre lo hemos hecho así con los clientes nuevos y nunca hubo problemas."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/claudia/c4b",
+   "h": "1deaa549",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "No... Lumen es ropa, calzado y accesorios. FarmaPlus son remedios. Todo paquetería chica, bolsas y cajitas.",
+    "MercaHogar vende cosas para la casa. Muebles armables, microondas, colchones enrollados. Ahora que lo digo en voz alta, es otro tipo de carga."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c5",
+   "h": "95cb5d0a",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Amonestamos a cuatro conductores por atrasos reiterados y autoricé horas extra sin tope para que terminen todas las rutas del día.",
+    "Pero las horas extra me están matando el costo por entrega, y los reclamos siguen."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c6",
+   "h": "fde9de2d",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Porque los reportes muestran que los atrasos son en la calle. Llegan tarde a las últimas paradas.",
+    "Aunque, siendo honesta, no hemos revisado por qué llegan tarde. Asumimos que se demoran o que se pierden."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/claudia/c7",
+   "h": "50e36a32",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Con Tiendas Lumen tenemos contrato: noventa y dos por ciento de entregas a tiempo y noventa y cuatro por ciento de éxito en primer intento.",
+    "Por cada punto bajo la meta pagamos una multa de medio punto porcentual de la facturación mensual. Lumen nos factura unos cuarenta y ocho millones de pesos al mes."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c8",
+   "h": "0a54da76",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Entre horas extra, recargos de FlotaSur, segundos intentos y multas, calculo entre nueve y once millones de pesos este mes.",
+    "Y si perdemos a Lumen, perdemos casi un tercio de la facturación. Eso no es un problema, eso es una crisis."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c9",
+   "h": "5073c6f3",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Un furgón se quedó en panne el día 15, en Vicuña Mackenna. Fue un mal día, pero FlotaSur respondió bien y mandó el reemplazo en un par de horas. Fuera de eso, nada."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c10",
+   "h": "2aa895db",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "FlotaSur me manda un Excel todos los lunes. Lo uso para revisar la factura de recargos.",
+    "La verdad es que no lo analizo en detalle. No tengo tiempo, y no sé muy bien qué mirar ahí."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/claudia/c11",
+   "h": "d82a3ace",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Que encuentren la causa raíz, no al culpable. Ya probamos retando a la gente y no funcionó.",
+    "Y quiero propuestas concretas, que pueda presentar al directorio: qué hacer primero, cuánto cuesta y qué indicador va a mejorar."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/jonathan/saludo",
+   "h": "192f17b6",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": true,
+   "parrafos": [
+    "Eh... hola. ¿Esto es por la amonestación? Mire, yo... yo hago lo que puedo, de verdad. No me vayan a echar, por favor, tengo una guagua."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j1",
+   "h": "40bf1faa",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Ah... ya, ya. Gracias. Eh, llego a las siete y media al cross-dock en Quilicura. Cargo el furgón con la gente de la señora Carmen y salgo tipo ocho y media.",
+    "Hago la ruta que me marca la app, en el orden que dice, y vuelvo cuando termino la última entrega."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j2",
+   "h": "05251a98",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "Ocho y media, ocho cuarenta. Como siempre. La carga está lista cuando llego, eso no es problema. La señora Carmen es bien ordenada."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j3",
+   "h": "dd0a5bf0",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "Cuando entré eran unas setenta, setenta y cinco entregas. Ahora me cargan ochenta y tantas. Ayer fueron ochenta y siete."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j4",
+   "h": "7f996583",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "Por el cliente nuevo, MercaHogar. Llegan cajas grandes, pesadas: microondas, sillas, muebles para armar, hasta colchones enrollados.",
+    "Antes eran puras bolsitas de ropa, cajitas de remedios. Uno las tomaba con una mano."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j5",
+   "h": "e3bcb227",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "Uf... Un paquete de ropa lo entrego en tres, cuatro minutos. Un pedido de MercaHogar, entre diez y quince.",
+    "Hay que bajarlo del furgón, a veces subir a pie a un cuarto piso porque no cabe en el ascensor, esperar en conserjería que llamen al departamento, que firme el titular con carnet... En los condominios de Puente Alto es peor todavía."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j6",
+   "h": "6af4acff",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "Antes terminaba a las seis, seis y media. Ahora llego a las últimas paradas a las ocho, ocho y media de la noche.",
+    "Y a esa hora la gente ya no está, o no contesta el citófono. O me dicen que esperaron todo el día y se tuvieron que ir."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j7",
+   "h": "56f39da5",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "Lo marco como «cliente ausente» en la app y el paquete vuelve al cross-dock. Al otro día sale de nuevo, sumado a los pedidos nuevos.",
+    "Entonces al día siguiente tengo todavía más paradas. Es como una bola de nieve, cada día peor."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j8",
+   "h": "ed02254c",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "La app dice que voy a terminar a las cinco cuarenta. Nunca, nunca he terminado a esa hora desde que llegó MercaHogar.",
+    "Es como si la app pensara que todos los paquetes son iguales. Que un colchón se entrega igual de rápido que una polera."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j9",
+   "h": "e4f5b414",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Le comenté a don Marcelo, el planificador. Me dijo que el sistema optimiza y que los nuevos somos lentos.",
+    "Así que no dije nada más. No quería problemas. Si soy el nuevo, soy el primero que echan."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/jonathan/j10",
+   "h": "4786856e",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "Sí, yo soy de La Florida, me conozco el sector de memoria. Además uso Waze. No me pierdo, no es eso.",
+    "Las entregas de la mañana las hago súper bien, a tiempo. El problema es en la tarde, cuando ya vengo atrasado."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j11",
+   "h": "d8b7a00c",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "El día 18 fue terrible. Vicuña Mackenna inundada, todo lento. Ese día todos llegamos tarde.",
+    "Pero fue un día. Los otros días igual llego tarde, sin lluvia."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j12",
+   "h": "bc7894e1",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "asustado",
+   "saludo": false,
+   "parrafos": [
+    "No, ando solo. Los furgones son para un conductor no más. Cuando me toca un colchón para un cuarto piso, lo subo como puedo... Ya me duele la espalda."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/jonathan/j13",
+   "h": "78e48542",
+   "escenario": "ultima-milla",
+   "personaje": "jonathan",
+   "nombre": "Jonathan Soto",
+   "genero": "m",
+   "animo": "aliviado",
+   "saludo": false,
+   "parrafos": [
+    "Que las rutas con cosas grandes tengan menos paradas. O que haya furgones solo para MercaHogar, con un peoneta que ayude a subir.",
+    "Y que la app calcule bien el tiempo. Gracias por preguntarme, de verdad. Nadie me había preguntado nada."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/rodrigo/saludo",
+   "h": "e33d8dfc",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": true,
+   "parrafos": [
+    "¡Por fin alguien me contesta! ¿Usted sabe lo que es pedir el día libre en la pega para esperar un mueble que nunca llegó? ¡Dos veces! ¡Dos veces me ha pasado!"
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r1",
+   "h": "c5db1770",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Bueno, al menos alguien pide disculpas. Compré un mueble de televisión y un microondas en MercaHogar.",
+    "Me dijeron: «entrega el martes entre nueve y veintiuna horas». ¡Doce horas de ventana! Me quedé todo el día encerrado esperando."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r2",
+   "h": "e1c96b80",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "¡Nunca llegó! A las nueve y cuarto de la noche me llega un mensaje: «Intento fallido, cliente ausente».",
+    "¡Ausente! Yo había salido cinco minutos a comprar pan porque no había comido nada en todo el día. Cinco minutos, después de doce horas."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r3",
+   "h": "10ecc7f7",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Llegó a las ocho y media de la noche. El chofer, pobre cabro, venía reventado, sudando entero.",
+    "Me dijo que llevaba ochenta y tantas entregas, que le cargaban de todo. Ahí me dio pena, la verdad. Me di cuenta de que el problema no es él."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r4",
+   "h": "8e4c1662",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Ningún aviso. Ni una hora aproximada, nada. Otras empresas te mandan un mensaje: «tu pedido llega en treinta minutos». Aquí, cero."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r5",
+   "h": "d6a59152",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "El chofer muy amable, nada que decir. Me subió el microondas y el mueble al tercer piso por la escalera, porque la caja del mueble no cabía en el ascensor.",
+    "Entre que subió, esperó que yo revisara y firmé, se demoró como quince minutos. Pero eso a mí no me importa. ¡A mí me importa que llegue el día que dijeron!"
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r6",
+   "h": "adc7dc8f",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "¡Obvio! Reclamo en el SERNAC y en redes sociales. MercaHogar me dice que es culpa del transporte. El transporte me dice que es culpa mía por no estar.",
+    "¡Nadie se hace cargo! ¡Todos se tiran la pelota!"
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r7",
+   "h": "a71b8eab",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Mi cuñado, en Puente Alto, compró un colchón. Le llegó al tercer intento. Y en el grupo de WhatsApp del condominio hay otros tres vecinos igual. Todos con compras de MercaHogar."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r8",
+   "h": "d90c54c7",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Que me den una ventana corta, de dos o tres horas. Que me avisen cuando vienen en camino. Y que cumplan.",
+    "No es tanto pedir, ¿o sí? Hay empresas que lo hacen."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/rodrigo/r9",
+   "h": "21fce537",
+   "escenario": "ultima-milla",
+   "personaje": "rodrigo",
+   "nombre": "Rodrigo Valdés",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Ni loco. Y se lo dije a toda mi familia. Ustedes no solo le hacen perder un cliente a MercaHogar, me hicieron perder dos días de trabajo."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/marcelo/saludo",
+   "h": "9d8f2661",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": true,
+   "parrafos": [
+    "Hola. Si vienen por las rutas, les adelanto: el sistema optimiza. Las rutas están perfectas. El problema está en la calle, no en mi escritorio."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/marcelo/m1",
+   "h": "586ad9c9",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "A las cinco de la mañana cargo los pedidos del día al software de ruteo, RutaMax. El sistema agrupa por zona, calcula la secuencia óptima de paradas y asigna a los veintidós furgones.",
+    "Yo reviso que no haya errores y libero las rutas a las siete, cuando llegan los conductores."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/marcelo/m2",
+   "h": "4dd3fef6",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Distancia entre paradas, velocidad promedio por comuna según la hora del día, capacidad del furgón en volumen y peso, y el tiempo de servicio por parada."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/marcelo/m3",
+   "h": "3b2289b6",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Cuatro minutos. Es el estándar que medimos cuando implementamos RutaMax en 2024. Para paquetería chica es exacto, lo validamos con cronómetro."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/marcelo/m4",
+   "h": "17925ef4",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Sí, es un parámetro general. El sistema permite configurar tiempos distintos por tipo de producto o por cliente, pero nunca lo hemos necesitado.",
+    "Todos nuestros clientes eran de paquetería chica... hasta ahora."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/marcelo/m5",
+   "h": "fdab7a8c",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "No. Me llegó un correo de Felipe, de Comercial, el día 10 en la tarde: «Mañana parte MercaHogar, unos doscientos pedidos diarios».",
+    "Cargué el código del cliente en el sistema y listo. Nadie me dijo que eran colchones y muebles. Me enteré por los conductores."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/marcelo/m6",
+   "h": "f00453ff",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Entre ochenta y ochenta y cinco ahora. Antes eran setenta y dos, setenta y cinco.",
+    "Pero el sistema dice que caben: el volumen del furgón aguanta y el tiempo calculado termina antes de las seis de la tarde."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/marcelo/m7",
+   "h": "eb98ab33",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Eh... no de forma sistemática. El GPS de los furgones registra el tiempo detenido en cada parada, pero ese reporte lo recibe la gerencia, no yo.",
+    "Yo trabajo con el plan. Si el plan está bien hecho, el resultado debería salir bien."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/marcelo/m8",
+   "h": "c926158d",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Hay conductores nuevos. Tres entraron el día 8. Los nuevos se demoran, se pierden, conversan mucho con los clientes..."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/marcelo/m9",
+   "h": "23073316",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Bueno... buena pregunta. No lo había pensado así.",
+    "Y además los atrasos son de todos, no solo de los nuevos. Don Pedro lleva seis años y también está terminando a las nueve de la noche."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/marcelo/m10",
+   "h": "76a0411e",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "La zona sur, Puente Alto y La Florida, es donde se concentra MercaHogar... Ahora que lo dice, ahí están los peores atrasos. En Las Condes y Providencia estamos casi igual que antes."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/marcelo/m11",
+   "h": "614739b4",
+   "escenario": "ultima-milla",
+   "personaje": "marcelo",
+   "nombre": "Marcelo Ibáñez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Técnicamente es un clic. Pero si subo el tiempo, el sistema me va a pedir más furgones para cubrir todas las paradas, y eso es plata.",
+    "Esa decisión no es mía, es de la gerencia. Y nadie me lo ha pedido."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "ultima-milla/felipe/saludo",
+   "h": "897d1637",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": true,
+   "parrafos": [
+    "¡Hola, hola! ¿Vienen por MercaHogar? ¡El negocio del año! Mil doscientos pedidos semanales, contrato a dos años. Pregunten no más, encantado."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f1",
+   "h": "5ea8e700",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Seis meses de negociación, cafecito va, cafecito viene. Les ofrecimos la misma tarifa que a Tiendas Lumen: dos mil cuatrocientos noventa pesos por entrega, con ventana de día completo.",
+    "¡Les encantó! Nuestra competencia les cobraba casi el doble."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f2",
+   "h": "22dd8c41",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Eh... no. Es tarifa plana por entrega. Para mí una entrega es una entrega.",
+    "¿Por qué? ¿Hay algún problema con eso? Ahora entiendo por qué la competencia cobraba el doble..."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f3",
+   "h": "e3fe93f6",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Mandé un correo a Claudia y a Marcelo con el volumen estimado y la fecha de inicio. Lo típico, lo que siempre hacemos."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f4",
+   "h": "fad38723",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Estaba en el anexo del contrato, el catálogo de productos: muebles armables, electrodomésticos chicos, colchones enrollados...",
+    "Pero no lo adjunté al correo, eran como cuarenta páginas. Pensé que Operaciones lo pediría si lo necesitaba."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f5",
+   "h": "5b8f65d9",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "¿Procedimiento? Mmm... no formal. Yo cierro el negocio, aviso por correo, y Operaciones se las arregla. Siempre ha funcionado así.",
+    "Bueno, antes todos los clientes eran de paquetería chica. Nunca habíamos tenido uno tan distinto."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f6",
+   "h": "6dfdec72",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Su fuerte es Puente Alto, La Florida y Maipú. Familias jóvenes que se cambian a departamentos nuevos y compran todo para la casa. Es su público objetivo."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f7",
+   "h": "09899c58",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Sí, tuvimos reunión el día 23. Están molestos: sus clientes esperan todo el día y no les llega.",
+    "Me preguntaron si podíamos ofrecer ventanas de tres horas. Les dije que lo íbamos a ver. Ojalá se pueda, si no, se nos cae el contrato."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f8",
+   "h": "1b1eb29c",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Complicada. Javiera, su jefa de cuenta, me llama todos los días. Y no entiendo por qué, si ellos no cambiaron nada. Su volumen es el mismo de siempre."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/felipe/f9",
+   "h": "e8e742bf",
+   "escenario": "ultima-milla",
+   "personaje": "felipe",
+   "nombre": "Felipe Araya",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Sí, claro. El sistema mezcla todo por zona para optimizar.",
+    "Ah... entonces si los pedidos de MercaHogar atrasan la ruta, los de Lumen que van al final también llegan tarde. ¿Será eso? Uf."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/saludo",
+   "h": "383fd8c7",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": true,
+   "parrafos": [
+    "Hola, chiquillos. Tengo diez minutos, que a las siete empieza la carga. Pregunten rápido, que no tengo todo el día."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/ca1",
+   "h": "24127082",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Ocho y media, todos los días, como reloj. Mírenlo en los datos si no me creen. Desde que estoy acá no ha cambiado."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/ca2",
+   "h": "8dcec132",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Los bultos de MercaHogar. Ocupan harto espacio. Un furgón que antes iba a medio llenar, ahora va lleno hasta el techo.",
+    "Hay que cargar con más cuidado para que un microondas no aplaste las cajitas de Lumen."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/ca3",
+   "h": "82d98aa6",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Nos demoramos un poco más en cargar, pero mi equipo entra media hora antes, a las siete. Así que los furgones salen a la misma hora.",
+    "A costa de mi gente, eso sí. Nadie me lo ha agradecido."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/ca4",
+   "h": "2441bb77",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Antes volvían veinte, treinta bultos por día. Ahora vuelven doscientos, doscientos cincuenta. Y la mitad son de MercaHogar.",
+    "Se me está llenando la zona de devoluciones. Y esos vuelven a salir al otro día, encima de los pedidos nuevos."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/ca5",
+   "h": "07ea043e",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Son buenos cabros. El Jonathan es nuevo, pero es responsable, llega antes que todos.",
+    "Los están retando por algo que no es culpa de ellos. Vuelven a las nueve de la noche, muertos de cansancio."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/ca6",
+   "h": "f9455edf",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Sí, en orden inverso: lo último que se entrega va al fondo del furgón. Eso está bien hecho, lo revisamos todos los días. No busquen por ahí."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/carmen/ca7",
+   "h": "36becfce",
+   "escenario": "ultima-milla",
+   "personaje": "carmen",
+   "nombre": "Carmen Rivas",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Mire, yo no soy ingeniera. Pero la cuenta es simple: si le metes más paradas a la ruta y cada parada se demora el triple, no te alcanza el día.",
+    "Eso lo sabe cualquiera que haya repartido alguna vez. Los de la oficina deberían salir un día en el furgón."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/saludo",
+   "h": "b9656e75",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": true,
+   "parrafos": [
+    "¡Buenas, buenas! Héctor Muñoz, de FlotaSur, a sus órdenes. Si vienen por el furgón que se quedó en Vicuña, ya les pido disculpas. ¡Pero pasa en las mejores familias!"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/h1",
+   "h": "ec57357f",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "El día 15 se le cortó la correa de distribución en plena Vicuña Mackenna, a la altura de Macul. Mandamos el de reemplazo en dos horas y media.",
+    "Mala suerte no más, ese furgón tenía la mantención al día. Le pasa hasta a los autos de la Fórmula Uno."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/h2",
+   "h": "8db0ca2b",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Impecable, mi amigo. Disponibilidad sobre el noventa y nueve por ciento. Ese fue el único problema del mes. Los furgones están bien, se los firmo."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/h3",
+   "h": "2a1a671d",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "¡Uy, sí! Los GPS muestran que están andando hasta las nueve de la noche. Antes volvían a las seis y media.",
+    "Y el tiempo detenido en cada parada subió harto: de cuatro minutos y algo, a más de cinco en promedio. En algunas paradas, hasta veinte minutos. Sobre todo en Puente Alto y La Florida."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/h4",
+   "h": "5f1d9eb3",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Se lo mandamos todos los lunes a Claudia por correo, un Excel bien completo. Yo no sé si alguien lo abre, ja, ja.",
+    "Nadie nos ha preguntado nada sobre los tiempos. Solo nos preguntan por la factura."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/h5",
+   "h": "561dcb01",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Son furgones de ocho metros cúbicos, pensados para paquetería. Para muebles y colchones yo les ofrecería unos de doce metros cúbicos con plataforma elevadora.",
+    "Tenemos disponibles, por si acaso. Les hago un precio especial, ¿ah?"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/h6",
+   "h": "dd2d6019",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Un poco, de noventa y tantos kilómetros por ruta a cien y algo. Pero lo que más subió son las horas detenido con el motor apagado.",
+    "Eso no es manejo, eso es estar parado entregando. El chofer está más tiempo bajándose que manejando."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/hector/h7",
+   "h": "a38d38c1",
+   "escenario": "ultima-milla",
+   "personaje": "hector",
+   "nombre": "Héctor Muñoz",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Sí, después de las diecinueve horas cobramos un recargo por hora de uso. Este mes la factura de recargos viene gordita, les aviso desde ya para que no se asusten."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/retro/u1",
+   "h": "f19c9ff7",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Los conductores nuevos ingresaron el día 8 y los indicadores se mantuvieron estables hasta el día 11. Además, la franja AM casi no cambió y los atrasos afectan también a conductores antiguos. Los datos no respaldan esta hipótesis."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/retro/u2",
+   "h": "f3bf1163",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Esto es un síntoma. Los clientes no están porque el furgón llega de noche, fuera de lo esperado. Pregúntense: ¿por qué el furgón llega tan tarde?"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/retro/u3",
+   "h": "2369b390",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "La hora promedio de salida se mantiene en torno a las 08:30 durante todo el período. La supervisora y los conductores lo confirman. Esta causa queda descartada con evidencia."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/retro/u4",
+   "h": "8ff136da",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Van bien: es una causa real, pero intermedia. ¿Por qué el sistema arma rutas que no caben en el turno? Sigan preguntando por qué."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/retro/u5",
+   "h": "52ff5551",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Muy cerca. Es la causa técnica directa. Pero un parámetro mal configurado es la consecuencia de algo: ¿por qué nadie lo ajustó cuando entró un cliente tan distinto? Un porqué más."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/retro/u6",
+   "h": "4fd43360",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "¡Causa raíz! Comercial cerró un cliente con productos voluminosos y tarifa plana, y Operaciones solo recibió un volumen por correo. Sin un proceso de onboarding nadie revisó el perfil de carga, el tiempo de servicio ni la flota. Si solo cambian el parámetro, el próximo cliente distinto repetirá el problema."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "ultima-milla/retro/u7",
+   "h": "86a4c065",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Son eventos puntuales: se ven como caídas de un solo día en los gráficos. El problema parte el día 11 y es persistente; estos eventos lo agravan, pero no lo explican."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "ultima-milla/explicacion",
+   "h": "5b39b2ce",
+   "escenario": "ultima-milla",
+   "personaje": "claudia",
+   "nombre": "Claudia Fuentes",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "La pista central está en los datos: la hora de salida no cambia, la franja AM casi no cae, pero la franja PM, la zona sur, el tiempo por parada y la hora de término empeoran desde el día 11, el mismo día en que inicia MercaHogar.",
+    "Las entrevistas con Jonathan, Marcelo, Felipe y Héctor permiten reconstruir la cadena: productos voluminosos → parámetro de 4 min no ajustado → rutas imposibles → entregas nocturnas fallidas → reintentos en bola de nieve.",
+    "Amonestar a los conductores atacó el síntoma. Cambiar solo el parámetro sería una corrección; la acción correctiva de fondo es un proceso de onboarding que involucre a Operaciones antes de partir con cualquier cliente."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/briefing",
+   "h": "59ab5ecc",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": true,
+   "parrafos": [
+    "Hola, gracias por venir. Soy Andrea Morales, jefa de operaciones de Transportes Maipo Frío.",
+    "Tenemos ocho camiones refrigerados. Cada día recogemos lechuga, espinaca, acelga y cilantro en predios de Paine, Buin y Talagante, y lo llevamos al centro de distribución de SuperValle en Pudahuel.",
+    "Hace unas semanas logramos algo muy bueno: cumplir casi el cien por ciento de las nuevas citas de andén del cliente. Pero ahora SuperValle nos está rechazando pallets completos por temperatura, y cada pallet rechazado lo pagamos nosotros.",
+    "Ayer nos dijeron que, si esto sigue, nos sacan como proveedor. Yo creo que es el calor de este verano, pero necesito que alguien lo analice en serio.",
+    "Revisen los datos, conversen con quien tengan que conversar y díganme cuál es la causa raíz y qué hacemos."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/saludo",
+   "h": "0a928e49",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": true,
+   "parrafos": [
+    "Pasen, pasen. Les cuento de entrada: lo de las citas lo resolvimos en un día. Ahora necesito resolver esto de las temperaturas igual de rápido."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a1",
+   "h": "2cb95de6",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Los rechazos por temperatura. SuperValle mide la pulpa de la lechuga al recibir, y si supera los ocho grados, rechaza el pallet completo.",
+    "Antes teníamos uno o dos por ciento de rechazo. Ahora, casi uno de cada cinco pallets."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a2",
+   "h": "04729151",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Hace unas tres semanas. Justo cuando habíamos solucionado lo de las citas. ¡Qué ironía!"
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a3",
+   "h": "ff56be41",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "SuperValle cambió su sistema: desde el día 8, los perecibles se reciben solo entre la una y las tres de la tarde. El día 8 llegamos casi todos fuera de cita y nos multaron con un millón doscientos mil pesos.",
+    "Esa misma tarde decidí adelantar la recolección de las dos a las once de la mañana. Y funcionó: ahora cumplimos el noventa y siete por ciento de las citas."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a4",
+   "h": "136b1ae7",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "No había tiempo. Le pedí a Kevin que les avisara. Los productores tienen que adaptarse, son ellos los que nos venden...",
+    "Bueno, en realidad le venden a SuperValle. Nosotros solo transportamos."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/andrea/a5",
+   "h": "91ac53e2",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Mi foco era la multa. Pensé: llegar antes siempre es mejor, ¿no?",
+    "Ahora que me lo pregunta así... no. No hice ningún análisis de impacto. Fue una decisión de una tarde."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/andrea/a6",
+   "h": "11d41915",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Yo diría que el calor. Este verano está terrible. También el camión 7, que falló. Y algunos conductores dejan la puerta abierta mucho rato al cargar."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a7",
+   "h": "b54ac2ad",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Mmm... tiene razón. Los rechazos ya venían de antes del calor. El calor lo empeoró, pero no lo empezó.",
+    "Y lo del camión 7 fue un solo día. Ya, me están convenciendo de que estaba mirando el lado equivocado."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a8",
+   "h": "21ab450a",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Cada pallet rechazado lo pagamos nosotros: unos trescientos veinte mil pesos. Ya vamos en más de doscientos pallets. Hagan la cuenta: más de sesenta millones de pesos en tres semanas.",
+    "Eso es mucho más que la multa que queríamos evitar."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a9",
+   "h": "54766f37",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Los camiones tienen datalogger que registra la temperatura del aire en la caja. La temperatura del producto, la pulpa, la mide SuperValle al recibir.",
+    "Nosotros no tenemos termómetros de punzón. Nunca los necesitamos."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/andrea/a10",
+   "h": "44539926",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "Que me digan qué hacer sin volver a perder las citas. No puedo volver a pagar multas.",
+    "Y si me equivoqué con el horario, prefiero saberlo ahora y no cuando nos saquen como proveedor."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/luis/saludo",
+   "h": "02b65df4",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": true,
+   "parrafos": [
+    "¿Y ustedes son los ingenieros? Veinticinco años manejando camiones de frío, mijo. Pregunten no más, pero les advierto que yo digo las cosas como son."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l1",
+   "h": "ebfa760b",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Salgo de San Bernardo, paso a Paine donde la señora Rosa, después a dos predios en Buin, y de ahí por la Autopista Central y Vespucio hasta el CD en Pudahuel.",
+    "Una hora, hora y media de viaje con el camión cargado, según el taco."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l2",
+   "h": "75fd8df4",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "A las once, por orden de la jefa. Antes llegaba a las dos de la tarde."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l3",
+   "h": "e4e5f8c5",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Tibio, mijo. Recién cortado del potrero. La lechuga la están embalando cuando yo llego; a veces la cargo con tierra todavía.",
+    "Antes, a las dos, la sacaban de la cámara fría de la señora Rosa, heladita. Uno tocaba la caja y estaba fría."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l4",
+   "h": "b2254dd8",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "¡No, pues! El equipo de frío mantiene, no enfría. Es como meter una olla de cazuela recién hecha al refrigerador de la casa: en una hora no se enfría.",
+    "Eso lo sabe todo el que ha trabajado en frío. Los jóvenes de la oficina no lo saben."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l5",
+   "h": "c200d29d",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "¡Harto! Ahora espero media hora, cuarenta y cinco minutos en cada predio, mientras terminan de cosechar y embalar.",
+    "Antes llegaba y estaba todo listo en pallets, frío, esperándome."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l6",
+   "h": "269867d7",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "A mí me llamó la jefa el día 8 en la noche: «Mañana a las once, Luis». A los productores les mandaron un WhatsApp, creo.",
+    "La señora Rosa me retó a mí, como si yo tuviera la culpa."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l7",
+   "h": "bbdf059f",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Siempre, media hora antes, para pre-enfriar la caja. El datalogger lo muestra: la caja va a tres, cuatro grados todo el viaje. Revísenlo si quieren."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l8",
+   "h": "fe9af7f2",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "¿Quién le dijo eso? ¿La jefa? Cargamos con cortina plástica y rápido, cinco minutos por predio.",
+    "Mire, mijo, si quieren buscar culpables, búsquenlos en otro lado. Yo llevo veinticinco años sin un rechazo."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/luis/l9",
+   "h": "9dc20fc6",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Ya, ya, está bien. El 7 no es el mío, es el del Pato, el de la ruta Talagante. Se le murió el compresor el día 20.",
+    "Ese día sí que el problema fue el camión. Pero fue un día, y lo arreglaron al otro."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/luis/l10",
+   "h": "e380de9c",
+   "escenario": "primera-milla",
+   "personaje": "luis",
+   "nombre": "Luis Pizarro",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Volver a recoger a las dos y pedirle al CD otra cita. O que nos tengan el producto frío aunque sea a las once, cosechando más temprano.",
+    "Pero alguien tiene que conversar con alguien, mijo. Aquí nadie conversa. Todo es por WhatsApp."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/ricardo/saludo",
+   "h": "242278ff",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": true,
+   "parrafos": [
+    "Tengo cinco minutos. Ustedes son de Maipo Frío, ¿no? Les voy a ser bien claro: si esto sigue así, los saco como proveedor. Tengo una norma, y la norma no se negocia."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/ricardo/rh1",
+   "h": "450f97d8",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Hortalizas de hoja: temperatura de pulpa máxima de ocho grados. Medimos con termómetro de punzón en tres cajas por pallet.",
+    "Si una sola caja sale sobre ocho, se rechaza el pallet entero. Así de simple. Es inocuidad alimentaria, no un capricho mío."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/ricardo/rh2",
+   "h": "abcaeaeb",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Diez, once, hasta trece grados. Es una vergüenza. Antes ustedes llegaban a seis, siete grados. Eran de los mejores proveedores que tenía."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/ricardo/rh3",
+   "h": "90cf16ec",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Reorganizamos los turnos del CD. Los perecibles entran de una a tres para alcanzar el despacho nocturno a tiendas.",
+    "Avisamos con dos días de anticipación. Bueno, dos días hábiles. Es suficiente."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/ricardo/rh4",
+   "h": "f145ea7b",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "¿Flexibilizar? Mmm... Podríamos abrir una ventana de tres a cinco de la tarde para proveedores de hoja, si alguien me trae una propuesta seria.",
+    "Pero nadie me la ha pedido. Solo llegan a reclamar."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/ricardo/rh5",
+   "h": "aa9fe011",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Puntualitos. Eso sí se los reconozco.",
+    "Pero, ¿de qué me sirve un camión puntual si viene con la lechuga caliente? Prefiero un camión tarde y frío que uno puntual y caliente."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/ricardo/rh6",
+   "h": "a9660422",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "No. Los productores que traen su propio producto desde cámara llegan bien. El problema es con ustedes, desde hace unas tres semanas.",
+    "Bueno, los camiones de la ruta Talagante llegan mejor. Los de Paine y Buin son un desastre."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/ricardo/rh7",
+   "h": "6cf3e99e",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Se devuelve. Ustedes se lo llevan y lo paga el transporte. La hoja rechazada no la vende nadie: termina en compost o regalada."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/ricardo/rh8",
+   "h": "79edb2e0",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Quiebre de stock en góndola. Tiendas de Maipú y Ñuñoa sin lechuga en pleno verano.",
+    "¡Me llaman los gerentes de tienda a gritos! ¡Y yo tengo que dar la cara por ustedes!"
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/ricardo/rh9",
+   "h": "a73567be",
+   "escenario": "primera-milla",
+   "personaje": "ricardo",
+   "nombre": "Ricardo Henríquez",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Un plan concreto, con fechas y con medición. No promesas.",
+    "Y que alguien mida la temperatura del producto antes de cargarlo, ¡por favor! ¿Cómo es posible que no lo hagan?"
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/saludo",
+   "h": "e4007ad4",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": true,
+   "parrafos": [
+    "Pase, mijito, pase. Tome asiento. Les voy a contar mi versión, porque a mí me están culpando de algo que yo no hice."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro1",
+   "h": "e3967eb7",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Cosechamos de seis a diez de la mañana, con la fresca. Después la lechuga pasa por el hidroenfriado: agua helada, a dos grados, para sacarle el calor del campo.",
+    "Luego va a la cámara fría hasta que llega el camión."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro2",
+   "h": "3432f109",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Con todo el volumen, termino de enfriar a eso de las doce y media, una de la tarde. Ahí la lechuga queda a cuatro, cinco grados de pulpa. Perfecta."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro3",
+   "h": "e274b3b5",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "El camión llega a las once. A esa hora tengo la mitad sin enfriar. Don Luis me apura porque tiene que llegar a la cita, y yo tengo que cargar lo que tengo.",
+    "Lechuga recién cortada, a quince, dieciséis grados. Me duele en el alma mandarla así."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro4",
+   "h": "d7d38e7e",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "¡Nadie! Me llegó un WhatsApp el día 9 a las siete de la mañana: «Desde hoy recolección once horas». Yo ya estaba en el potrero cosechando.",
+    "Ni una llamada. Doce años trabajando con ellos, mijito."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro5",
+   "h": "68b0fd1e",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Podría empezar a las cinco, con focos. Pero necesito saberlo con tiempo, organizar a la gente, pagar el turno temprano.",
+    "Si me lo hubieran preguntado, lo conversábamos. Siempre hay una solución conversando."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro6",
+   "h": "01fa123d",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Todos los de Paine y Buin. Don Jaime, en Talagante, está mejor porque el camión le llega a la una, es el último de la ruta, y ya tiene su lechuga fría en cámara."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro7",
+   "h": "35ed0ee8",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Tengo mi termómetro, el de la cámara. Pero nadie me pide el dato. El chofer carga, firma la guía con los kilos y se va."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/rosa/ro8",
+   "h": "3ed9ae0f",
+   "escenario": "primera-milla",
+   "personaje": "rosa",
+   "nombre": "Rosa Catalán",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "SuperValle me baja la nota como proveedora y el transporte me echa la culpa. Estoy perdiendo plata y prestigio.",
+    "Estoy pensando seriamente en venderle a la Vega Central y listo."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/kevin/saludo",
+   "h": "41775c34",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": true,
+   "parrafos": [
+    "Hola, perdón, perdón, estoy con tres teléfonos sonando... Ya, díganme. ¿En qué los ayudo? Rápido, porfa."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k1",
+   "h": "f8a26aed",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Por el grupo de WhatsApp «Productores Maipo». La jefa me dijo el 8 en la noche y yo lo mandé apenas pude, el 9 a las siete de la mañana."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k2",
+   "h": "55bdd201",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Algunos pusieron «ok». La señora Rosa me llamó súper enojada. Yo le dije que eran órdenes de arriba. ¿Qué más iba a hacer?"
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k3",
+   "h": "eda17b4c",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Mismo orden que antes, solo moví la hora de salida tres horas antes. Paine primero, después Buin, y Talagante al final. En Talagante el camión llega como a la una."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k4",
+   "h": "ee585c35",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Sí, tengo una planilla. Ahora que la miro... los rechazos son casi todos de Paine y Buin. La ruta de Talagante casi no tiene rechazos. Raro, ¿no?"
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k5",
+   "h": "8037085d",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "No sé... ¿será porque es el último de la ruta? A esa hora ya tienen todo en cámara...",
+    "Ah. Ya. Ya entendí. Uf."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k6",
+   "h": "5d7cd927",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "¿Procedimiento? No. Aquí todo se decide rápido, por teléfono. Si hay un problema, se apaga el incendio y listo. Nadie revisa qué otra cosa se puede quemar."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k7",
+   "h": "be9b8e96",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "No, solo firman la guía de despacho con los kilos y la hora. La temperatura no está en el formulario."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/kevin/k8",
+   "h": "c241db0a",
+   "escenario": "primera-milla",
+   "personaje": "kevin",
+   "nombre": "Kevin Salazar",
+   "genero": "m",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Terrible. Coordino ocho camiones, los reclamos de SuperValle, los productores enojados... Me siento todo el día apagando incendios.",
+    "Nunca tengo tiempo para mirar los datos con calma."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "primera-milla/tomas/saludo",
+   "h": "6c08a192",
+   "escenario": "primera-milla",
+   "personaje": "tomas",
+   "nombre": "Tomás Lillo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": true,
+   "parrafos": [
+    "Buenas tardes. Tomás Lillo, de FríoTec. Mantengo los equipos de frío de los ocho camiones. Antes de que pregunten: sí, revisé los dataloggers. Les puedo explicar todo con datos."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/tomas/t1",
+   "h": "417b1f62",
+   "escenario": "primera-milla",
+   "personaje": "tomas",
+   "nombre": "Tomás Lillo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Siete de ocho, perfectos. El aire en la caja se mantiene entre dos y cuatro grados durante todo el viaje.",
+    "El camión 7 tuvo una falla de compresor el día 20: ese día el aire subió a doce grados. Lo reparamos en veinticuatro horas."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/tomas/t2",
+   "h": "7ea7ec23",
+   "escenario": "primera-milla",
+   "personaje": "tomas",
+   "nombre": "Tomás Lillo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "No, y es un error muy común. El equipo de un camión está diseñado para mantener la temperatura, no para extraer el calor de campo.",
+    "Bajar la pulpa de una lechuga de dieciséis a ocho grados requiere un hidroenfriador o una cámara de frío forzado. En una hora de viaje, con el producto apilado en pallets, la pulpa baja uno o dos grados como mucho."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/tomas/t3",
+   "h": "ab8d434b",
+   "escenario": "primera-milla",
+   "personaje": "tomas",
+   "nombre": "Tomás Lillo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Básicamente, la temperatura con la que se carga. Si cargas a cinco grados, llegas a cinco o seis. Si cargas a dieciséis, llegas a doce o trece.",
+    "Lo que entra caliente, sale caliente. Es termodinámica básica."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/tomas/t4",
+   "h": "89421524",
+   "escenario": "primera-milla",
+   "personaje": "tomas",
+   "nombre": "Tomás Lillo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Algo. Con treinta y cinco grados afuera, cada apertura de puerta mete calor y el equipo trabaja más. Diría que suma medio grado, un grado.",
+    "Pero no explica que el producto llegue tres o cuatro grados sobre la norma."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/tomas/t5",
+   "h": "2971a650",
+   "escenario": "primera-milla",
+   "personaje": "tomas",
+   "nombre": "Tomás Lillo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Los dataloggers registran cada apertura. Duran entre cinco y ocho minutos por predio, lo normal. No veo ningún cambio entre antes y después del día 9."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/tomas/t6",
+   "h": "833047b8",
+   "escenario": "primera-milla",
+   "personaje": "tomas",
+   "nombre": "Tomás Lillo",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Medir la pulpa con termómetro de punzón antes de cargar y no aceptar producto sobre siete grados. Es práctica estándar de cadena de frío.",
+    "Les puedo cotizar termómetros: unos treinta mil pesos cada uno. Es lo más barato que van a invertir este año."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/retro/p1",
+   "h": "62ad617a",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Los rechazos suben desde el día 9; la ola de calor fue entre los días 14 y 16. El técnico estima que el calor suma medio a un grado. Es un agravante, no la causa."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/retro/p2",
+   "h": "cdb2e9a3",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "El datalogger muestra el aire de la caja entre 3 y 4 °C todo el período, salvo el camión 7 el día 20. Los equipos funcionan: el problema es lo que se carga."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/retro/p3",
+   "h": "6d5e00bd",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Esto es el problema (o síntoma) que ya conocían. ¿Por qué llega caliente si el camión mantiene el frío?"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/retro/p4",
+   "h": "f07ce5d4",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Van muy bien: es la causa física directa, y explica por qué Talagante (recolección 13:00) casi no tiene rechazos. Pero, ¿por qué se adelantó el horario sin considerar esto?"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/retro/p5",
+   "h": "ccd88d90",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "El datalogger muestra aperturas de 5 a 8 minutos por predio, sin cambios antes y después del día 9. No hay evidencia que la respalde."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/retro/p6",
+   "h": "ba9de382",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Es el detonante externo, pero no la causa raíz: un cliente puede cambiar sus condiciones. Lo que falló fue cómo la empresa respondió a ese cambio."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "primera-milla/retro/p7",
+   "h": "ff7c0790",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "¡Causa raíz! La decisión se tomó en una tarde para evitar una multa de $1,2 millones, se comunicó por WhatsApp y generó pérdidas mucho mayores. Sin control de pulpa en la carga, nadie detectó que se estaba cargando producto a 15 °C."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "primera-milla/explicacion",
+   "h": "d766a571",
+   "escenario": "primera-milla",
+   "personaje": "andrea",
+   "nombre": "Andrea Morales",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "La pista central es el «experimento natural»: la ruta Talagante, que recoge a las 13:00 con producto ya hidroenfriado, casi no tiene rechazos, mientras Paine–Buin, que recoge a las 11:00, concentra los rechazos.",
+    "Los datos muestran el trade-off: la cita de andén mejora el mismo día en que la temperatura de llegada empeora (día 9). El datalogger descarta los equipos y las puertas.",
+    "Evitar una multa de $1,2 millones generó pérdidas por más de $60 millones. La acción de fondo es un proceso de gestión del cambio que incluya a productores y cliente, y un control de pulpa en origen."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/briefing",
+   "h": "371264bf",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": true,
+   "parrafos": [
+    "Buenas. Rodrigo Saavedra, gerente del centro de distribución de DFA en Lampa. Disculpen el desorden, estamos en temporada alta.",
+    "Abastecemos a más de trescientas ferreterías y a varias constructoras de Santiago. Tenemos cuatro mil ochocientas posiciones de pallet, un WMS y dos turnos: de día preparamos pedidos, de noche recibimos y almacenamos.",
+    "El problema: los pedidos están saliendo incompletos. El cumplimiento de líneas bajó, los clientes reclaman todos los días y Constructora Altamira suspendió sus pedidos. Lo absurdo es que la bodega está llena de mercadería.",
+    "Contratamos temporales, amonestamos gente, hacemos horas extra todos los días. Nada funciona.",
+    "Necesito que investiguen a fondo y me digan cuál es la causa raíz. Y qué hacemos primero."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/saludo",
+   "h": "c6d6d728",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": true,
+   "parrafos": [
+    "Hola, pasen. Perdón el ruido de las grúas. Pregunten lo que necesiten, mientras más rápido encontremos esto, mejor."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs1",
+   "h": "d6820008",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Pedidos incompletos. Antes despachábamos el noventa y ocho, noventa y nueve por ciento de las líneas completas. Ahora estamos bajo el noventa y dos.",
+    "Las ferreterías reclaman todos los días y Constructora Altamira suspendió sus pedidos."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs2",
+   "h": "5ce35161",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Estamos en temporada alta: Compras trajo mercadería para Black Friday. Contratamos seis temporales para el turno noche. Y el CD está lleno, a tope."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs3",
+   "h": "9ba1a550",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Los racks están sobre el noventa y siete por ciento. Lo ideal para operar bien es entre ochenta y cinco y ochenta y ocho.",
+    "Sobre noventa y cinco ya no hay espacio para mover nada. Tenemos pallets en el pasillo 14 y en los andenes."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs4",
+   "h": "71231b5c",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Me enteré cuando empezaron a llegar los contenedores, el día 8. Compras planifica sus órdenes con los proveedores, no con nosotros.",
+    "Nunca nos preguntan cuánto espacio tenemos. Somos el patio trasero de la empresa."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs5",
+   "h": "0b72f61e",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Al principio pensé que eran los temporales del turno noche: gente nueva, sin experiencia. Por eso amonestamos a dos.",
+    "Pero sigue pasando igual. Así que ya no estoy tan seguro."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs6",
+   "h": "6bf201af",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Antes, muy confiable: noventa y ocho por ciento de exactitud en los conteos cíclicos. Ahora ando bajo el noventa.",
+    "El sistema dice que hay stock en una ubicación y no está. O está, pero en otro lado."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs7",
+   "h": "224d8d53",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "No. Nunca habíamos llegado a este nivel de ocupación. El supervisor de noche improvisó con el pasillo 14.",
+    "Pero esas ubicaciones no existen en el WMS. Para el sistema, ese pasillo es solo un pasillo."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs8",
+   "h": "d416886f",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Ajustes de inventario por varias decenas de millones este mes, horas extra todos los días, y si perdemos a Constructora Altamira, son ochenta millones de pesos en ventas mensuales."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/rodrigo-s/rs9",
+   "h": "aabcc861",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Que encuentren qué está fallando de verdad. Ya me cansé de buscar culpables.",
+    "Y que me digan qué puedo hacer esta semana, y qué tengo que pelear con Compras y la gerencia general."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/saludo",
+   "h": "6b8231cf",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": true,
+   "parrafos": [
+    "¿Qué onda? Brayan, operador de grúa, turno noche. Si vienen a retarme, hagan la fila, ja, ja. No, en serio, pregunten no más. Yo digo las cosas como son."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/b1",
+   "h": "48a09f5e",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Recepción deja el pallet en el andén con su etiqueta. Yo lo escaneo, el WMS me dice: «llévalo a la ubicación tanto». Voy, escaneo la etiqueta de la ubicación y confirmo. Pallet guardado.",
+    "Fácil... cuando hay espacio."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/b2",
+   "h": "77ca5772",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Ahí está el chiste. Llego a la ubicación y está llena con otro pallet. El WMS cree que está vacía.",
+    "Entonces busco un hueco donde quepa, lo dejo ahí, y en la pistola digito a mano la ubicación que me pidió el sistema. Porque si no, no me deja cerrar la tarea."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/b3",
+   "h": "bfe4fb99",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Exacto. Y hay que ser honesto: lo hacemos todos, los nuevos y los antiguos. Si no, no terminas nunca.",
+    "El supervisor dice: «dale, dale, que viene otro camión». Uno hace lo que puede."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/brayan/b4",
+   "h": "6c416af6",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Desde que se llenó la bodega, hace unas dos semanas y media. Antes pasaba una vez a la semana, por una etiqueta rota. Ahora, veinte veces por turno."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/b5",
+   "h": "c3165bf9",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Eso lo habilitó don Óscar: «déjenlos ahí no más, después los ubicamos». Ese «después» nunca llegó.",
+    "Hay como doscientos pallets en el pasillo y en los andenes. Hay que pasar de lado."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/b6",
+   "h": "6ff852c0",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Nop. En el WMS no existe «pasillo 14». Quedan en el sistema en la ubicación que uno confirmó, o en «recepción».",
+    "Para el sistema, ese producto está en otra parte. O sea, para el picker no existe."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/b7",
+   "h": "5314b97d",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Los cabros nuevos aprenden rápido, tuvieron dos días de inducción. No es culpa de ellos.",
+    "Yo, que llevo tres años, hago exactamente lo mismo. No hay otra."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/brayan/b8",
+   "h": "faea8311",
+   "escenario": "almacenamiento",
+   "personaje": "brayan",
+   "nombre": "Brayan Contreras",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Crear ubicaciones de verdad en el sistema para el pasillo 14, aunque sean temporales, con su etiqueta. Y que Compras no traiga más de lo que cabe, pues. No es ciencia.",
+    "Ah, y que no nos dejen confirmar sin escanear. Así nadie hace trampa, ni por apuro."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/marisol/saludo",
+   "h": "4696a38f",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": true,
+   "parrafos": [
+    "¡Ay, por fin alguien viene a preguntarnos a nosotras! Siéntense, porque tengo harto que contar. Esto está un desastre. Un de-sas-tre."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma1",
+   "h": "835c3203",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Llego a la ubicación que me dice la pistola y está vacía. O tiene otro producto.",
+    "Ayer me mandaron a buscar cerámica y había sacos de cemento. ¡Cemento! ¿Me entiende?"
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma2",
+   "h": "6f5a283b",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Marco «ubicación vacía» en la pistola y el sistema me manda a otra ubicación, si tiene. Si no tiene, la línea queda como faltante y el pedido sale incompleto."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma3",
+   "h": "a2a826d1",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "¡Sí está! Esa es la rabia que da. Después lo encuentro en el pasillo 14, o en el andén 3, o en la ubicación de al lado.",
+    "Una vez encontré los sacos de cemento de la Ferretería El Tornillo al otro día, tapados con film en el pasillo."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma4",
+   "h": "eea3d8d6",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Uf. Antes hacía mis ciento veinte líneas por hora. Ahora, con suerte, noventa. Me paso caminando, buscando, preguntando a las compañeras."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma5",
+   "h": "44a24d2d",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Desde mediados del período. Me acuerdo porque fue la semana del cumpleaños de mi hija, el 13 o el 14. Ahí empezó la locura."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma6",
+   "h": "f29e6d40",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Dicen que los temporales tienen la culpa, pero yo no creo. Los productos mal ubicados son de todas las marcas, de todos los días.",
+    "Y el Brayan, que es antiguo, me contó que él también tiene que dejar cosas donde caben. Todos lo hacen."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma7",
+   "h": "de88938b",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "triste",
+   "saludo": false,
+   "parrafos": [
+    "Pesado. Los pasillos llenos de pallets, hay que pasar de lado con el transpaleta. Prevención de riesgos vino a reclamar.",
+    "Y horas extra todos los días. Llego a mi casa a las nueve de la noche."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/marisol/ma8",
+   "h": "bcddcd0e",
+   "escenario": "almacenamiento",
+   "personaje": "marisol",
+   "nombre": "Marisol Vega",
+   "genero": "f",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "¡Mil veces! El jefe dice: «paciencia, es temporada alta».",
+    "Pero temporada alta hemos tenido siempre, todos los años, y nunca fue así. Algo distinto pasó este año."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/sergio/saludo",
+   "h": "77c8d241",
+   "escenario": "almacenamiento",
+   "personaje": "sergio",
+   "nombre": "Sergio Paredes",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": true,
+   "parrafos": [
+    "Mire, joven, le voy a decir algo: en treinta años de ferretería nunca me había pasado esto. Pido cuarenta sacos de cemento y me llegan doce. ¡Doce! ¿Ustedes creen que yo vendo con aire?"
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/sergio/s1",
+   "h": "2f144667",
+   "escenario": "almacenamiento",
+   "personaje": "sergio",
+   "nombre": "Sergio Paredes",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Cemento, cerámica, pintura... Los productos que más vendo. Tres pedidos seguidos incompletos.",
+    "Y en la guía viene escrito «sin stock». ¿Sin stock? ¡Si el vendedor me dijo que tenían la bodega llena!"
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/sergio/s2",
+   "h": "85bfd984",
+   "escenario": "almacenamiento",
+   "personaje": "sergio",
+   "nombre": "Sergio Paredes",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Tengo maestros que vienen a comprar cemento para una obra. Si no tengo, se van al home center de la esquina y no vuelven.",
+    "Estoy perdiendo clientes de veinte años por culpa de ustedes."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/sergio/s3",
+   "h": "e956abba",
+   "escenario": "almacenamiento",
+   "personaje": "sergio",
+   "nombre": "Sergio Paredes",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "¡Nada! Me entero cuando llega el camión. Si me avisaran, al menos le compro a otro distribuidor ese día. ¡Es lo mínimo!"
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/sergio/s4",
+   "h": "404feb2e",
+   "escenario": "almacenamiento",
+   "personaje": "sergio",
+   "nombre": "Sergio Paredes",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Eso es lo más raro. Al otro día me llama el vendedor: «Don Sergio, encontramos el cemento, se lo mandamos el jueves».",
+    "¿Encontraron? ¿Lo tenían perdido? ¡Una bodega que pierde cuarenta sacos de cemento! Eso no se pierde en un bolsillo."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/sergio/s5",
+   "h": "9fc68429",
+   "escenario": "almacenamiento",
+   "personaje": "sergio",
+   "nombre": "Sergio Paredes",
+   "genero": "m",
+   "animo": "furioso",
+   "saludo": false,
+   "parrafos": [
+    "Hace unas dos, tres semanas. Antes ustedes eran un reloj. Por eso les compraba a ustedes y no a otros."
+   ],
+   "exaggeration": 1,
+   "cfg_weight": 0.3,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/sergio/s6",
+   "h": "122d1171",
+   "escenario": "almacenamiento",
+   "personaje": "sergio",
+   "nombre": "Sergio Paredes",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "Pedidos completos. Y si no tienen algo, que me avisen el día anterior.",
+    "Y un descuento por las molestias, ¿no le parece? Algo de cariño para el cliente."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/valentina/saludo",
+   "h": "f00a001a",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "entusiasta",
+   "saludo": true,
+   "parrafos": [
+    "Hola. Valentina Cruz, Jefa de Abastecimiento. Les cuento altiro: mi equipo consiguió el mejor precio de la historia para Black Friday. Si hay problemas en bodega, son de bodega."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/valentina/v1",
+   "h": "2ab2b73b",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Adelantamos las compras de importación: cerámica, herramientas eléctricas, pinturas. Cuarenta por ciento más de volumen que el año pasado, con doce por ciento de descuento por comprar anticipado.",
+    "Un ahorro de más de doscientos millones de pesos. Los números hablan solos."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/valentina/v2",
+   "h": "f4d03dc9",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Le mandamos el calendario de llegadas de contenedores a recepción... bueno, creo que lo mandamos.",
+    "Nosotros no vemos espacio, vemos precio y disponibilidad. El CD siempre se las arregla."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/valentina/v3",
+   "h": "ef8955d5",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "No... no formal. Hay una reunión mensual de planificación, pero el CD casi nunca va. Y nadie me había dicho «oye, no hay espacio».",
+    "Bueno, hasta ahora."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/valentina/v4",
+   "h": "2ce7f4f3",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "Unos quinientos pallets más de lo normal. Se van a vender en noviembre. Es inventario estratégico."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/valentina/v5",
+   "h": "55a6e792",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "neutral",
+   "saludo": false,
+   "parrafos": [
+    "No tengo ese dato. ¿Está muy lleno? ¿Cuánto es «lleno» para una bodega? Pensé que mientras cupiera, estaba bien."
+   ],
+   "exaggeration": 0.45,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/valentina/v6",
+   "h": "2f30d6bf",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Bueno, eso no es Compras, eso es que no encuentran las cosas... Aunque, si lo que trajimos les quitó el espacio para trabajar, entiendo que se relaciona.",
+    "¿Me están diciendo que el ahorro se nos está yendo en ajustes de inventario y en clientes perdidos?"
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/valentina/v7",
+   "h": "f7dad4bf",
+   "escenario": "almacenamiento",
+   "personaje": "valentina",
+   "nombre": "Valentina Cruz",
+   "genero": "f",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Quedan tres contenedores para el día 25. Podríamos pedirle al proveedor que los retenga en el puerto de San Antonio, pagando almacenaje. O arrendar una bodega externa por dos meses.",
+    "Habría que evaluarlo con números. Eso sí lo sé hacer."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/ignacio/saludo",
+   "h": "1a72b362",
+   "escenario": "almacenamiento",
+   "personaje": "ignacio",
+   "nombre": "Ignacio Bravo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": true,
+   "parrafos": [
+    "Buenas tardes. Ignacio Bravo, soporte de TecnoScan. Quiero aclarar desde ya que el WMS no ha tenido caídas ni errores de software este mes. Tengo los registros."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/ignacio/i1",
+   "h": "0912d7b9",
+   "escenario": "almacenamiento",
+   "personaje": "ignacio",
+   "nombre": "Ignacio Bravo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Busca la ubicación libre más cercana a la zona de picking, según la clasificación ABC del producto.",
+    "«Libre» significa libre según el registro del sistema. El sistema solo sabe lo que los operadores confirman."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/ignacio/i2",
+   "h": "70300e4b",
+   "escenario": "almacenamiento",
+   "personaje": "ignacio",
+   "nombre": "Ignacio Bravo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "El sistema queda con un error: cree que el pallet está en una ubicación, pero está en otra. Y la ubicación real donde quedó aparece como vacía.",
+    "Entonces el sistema sugiere esa ubicación «vacía» al siguiente pallet... y el error se multiplica. Es una bola de nieve."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/ignacio/i3",
+   "h": "3c707658",
+   "escenario": "almacenamiento",
+   "personaje": "ignacio",
+   "nombre": "Ignacio Bravo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Sí. Las confirmaciones manuales, digitando la ubicación en vez de escanear la etiqueta, subieron de unas quince por noche a más de ciento veinte desde el día 13.",
+    "Y son de todos los usuarios: antiguos y temporales por igual."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/ignacio/i4",
+   "h": "c4826260",
+   "escenario": "almacenamiento",
+   "personaje": "ignacio",
+   "nombre": "Ignacio Bravo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Es una opción pensada para etiquetas dañadas. Se puede bloquear o exigir autorización del supervisor, pero el cliente pidió dejarla libre.",
+    "Lo podemos cambiar con una configuración, en minutos."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/ignacio/i5",
+   "h": "b1785bdf",
+   "escenario": "almacenamiento",
+   "personaje": "ignacio",
+   "nombre": "Ignacio Bravo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Sí, claro. Podemos crear una zona de sobrestock con ubicaciones de piso y sus etiquetas, en una hora.",
+    "Nadie nos lo ha pedido."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/ignacio/i6",
+   "h": "2c5aba35",
+   "escenario": "almacenamiento",
+   "personaje": "ignacio",
+   "nombre": "Ignacio Bravo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Siete pistolas con baterías degradadas no se cargaron en la noche. Se recargaron a media mañana.",
+    "Fue un problema de un día y ya cambiamos las baterías. No tiene relación con las ubicaciones."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/oscar/saludo",
+   "h": "b3fdeb6a",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": true,
+   "parrafos": [
+    "Óscar Nilo, supervisor de noche. Quince años en esta bodega. Les digo de inmediato cuál es el problema: la gente nueva. Los temporales no saben trabajar."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/oscar/o1",
+   "h": "1212c4cc",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "Porque los problemas empezaron cuando llegaron. Gente sin experiencia, no saben leer una etiqueta, se equivocan de rack."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/oscar/o2",
+   "h": "a9285468",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "defensivo",
+   "saludo": false,
+   "parrafos": [
+    "El día 10. Unos días antes de que empezaran las quejas."
+   ],
+   "exaggeration": 0.6,
+   "cfg_weight": 0.45,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/oscar/o3",
+   "h": "d6ea2b45",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Bueno... tenían que agarrar vuelo, digamos.",
+    "Aunque, ahora que lo pienso, el día 12 fue cuando se llenaron los racks y habilité el pasillo 14."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/oscar/o4",
+   "h": "a479dac6",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "¿Y qué iba a hacer? Llegaban camiones y no había dónde guardar. O dejaba los pallets en el pasillo o devolvía los camiones.",
+    "Nadie me dio otra instrucción. Yo resolví."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/oscar/o5",
+   "h": "757f6b96",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "molesto",
+   "saludo": false,
+   "parrafos": [
+    "No... la idea era ubicarlos después, cuando se liberara espacio. Pero el espacio nunca se liberó."
+   ],
+   "exaggeration": 0.75,
+   "cfg_weight": 0.4,
+   "temperature": 0.8
+  },
+  {
+   "clave": "almacenamiento/oscar/o6",
+   "h": "1686156b",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "nervioso",
+   "saludo": false,
+   "parrafos": [
+    "Yo les digo que avancen. Si hay diez camiones esperando en el andén, no puedo tener a la gente buscando huecos. Se confirma y después se corrige.",
+    "Bueno... el «después» no ha pasado."
+   ],
+   "exaggeration": 0.7,
+   "cfg_weight": 0.4,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/oscar/o7",
+   "h": "0a4c9180",
+   "escenario": "almacenamiento",
+   "personaje": "oscar",
+   "nombre": "Óscar Nilo",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Espacio. Y saber con anticipación qué va a llegar. Hoy me entero cuando el camión está en la puerta."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/retro/a1",
+   "h": "79afbccf",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Los temporales ingresaron el día 10 y los problemas parten el día 13, cuando la ocupación supera el 97%. Además, los registros del WMS muestran confirmaciones forzadas de antiguos y nuevos por igual."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/retro/a2",
+   "h": "382ee235",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Este es el problema que ya conocían. ¿Por qué faltan productos si el inventario existe?"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/retro/a3",
+   "h": "50a9e009",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Ocurrió solo el día 19 y afectó la productividad ese día. El problema de ubicaciones vacías es persistente desde el día 13."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/retro/a4",
+   "h": "79932dc7",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Van bien: explica por qué el WMS «miente». Pero, ¿por qué lo hacen antiguos y nuevos por igual? ¿Qué los obliga?"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/retro/a5",
+   "h": "90b84848",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "Muy cerca. La saturación es la condición que dispara el problema. Pero, ¿por qué se llegó a ese nivel y por qué no había un plan para manejarlo?"
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/retro/a6",
+   "h": "b372dd47",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "entusiasta",
+   "saludo": false,
+   "parrafos": [
+    "¡Causa raíz! Compras adelantó un 40% del volumen sin consultar la capacidad del CD. Al saturarse los racks, no había un procedimiento ni ubicaciones de sobrestock en el WMS, así que los pallets se guardaron donde cupieron, sin registro. El ahorro de compra se pierde en ajustes y clientes."
+   ],
+   "exaggeration": 0.85,
+   "cfg_weight": 0.35,
+   "temperature": 0.85
+  },
+  {
+   "clave": "almacenamiento/retro/a7",
+   "h": "c4021370",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "El proveedor muestra registros sin caídas ni errores. El WMS hace lo que le informan: el error está en los datos que recibe, no en el software."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  },
+  {
+   "clave": "almacenamiento/explicacion",
+   "h": "494f6185",
+   "escenario": "almacenamiento",
+   "personaje": "rodrigo-s",
+   "nombre": "Rodrigo Saavedra",
+   "genero": "m",
+   "animo": "cooperador",
+   "saludo": false,
+   "parrafos": [
+    "La pista central es la secuencia temporal: recepciones suben desde el día 8, la ocupación cruza el 97% el día 12 y desde el día 13 se disparan las ubicaciones vacías. La dotación del turno noche cambió el día 10, sin efecto inmediato.",
+    "Brayan, Ignacio y Óscar explican el mecanismo: el WMS sugiere ubicaciones que físicamente están llenas, se confirman a mano y el error se multiplica en bola de nieve.",
+    "Amonestar a los temporales atacó un síntoma. La acción de fondo es coordinar capacidad entre Compras y el CD (S&OP) y contar con un procedimiento de sobrestock con ubicaciones registradas."
+   ],
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.75
+  }
+ ]
+}

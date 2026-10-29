@@ -46,6 +46,8 @@ export interface Personaje {
   tipo: TipoPersonaje;
   /** Descripción breve de su personalidad, visible para el alumno. */
   personalidad: string;
+  /** Dirección actoral para las voces grabadas (opcional; ver src/data/actuacion.ts). */
+  actuacion?: string;
   animoInicial: Animo;
   color: string;
   voz: Voz;

@@ -4,6 +4,7 @@ import { ESCENARIOS, obtenerEscenario } from './data';
 import { almacen, progresoVacio } from './lib/storage';
 import { uid } from './lib/datos';
 import { cargarVoces, vozDisponible } from './lib/voz';
+import { cargarManifest } from './lib/audio';
 import { Contexto, type Ctx } from './contexto';
 import { Cuaderno } from './components/Cuaderno';
 import { pararLectura } from './components/ui';
@@ -63,9 +64,12 @@ export default function App() {
 
   const esc = useMemo(() => obtenerEscenario(escId), [escId]);
 
+  const [nAudios, setNAudios] = useState(0);
   useEffect(() => {
     cargarVoces();
+    cargarManifest().then(setNAudios);
   }, []);
+  const hayVoz = vozDisponible() || nAudios > 0;
   useEffect(() => almacen.guardarGrupo(grupo), [grupo]);
   useEffect(() => {
     if (prog) almacen.guardarProgreso(prog);
@@ -109,7 +113,7 @@ export default function App() {
       grupo,
       actualizar,
       irA,
-      vozAuto: vozAuto && vozDisponible(),
+      vozAuto: vozAuto && hayVoz,
       agregarHallazgo: (h) =>
         actualizar((p) =>
           p.hallazgos.some((x) => x.texto === h.texto)
@@ -126,10 +130,10 @@ export default function App() {
       tieneHallazgo: (texto) => prog.hallazgos.some((h) => h.texto === texto),
       abrirCuaderno: () => setCuaderno(true),
     };
-  }, [esc, prog, grupo, actualizar, irA, vozAuto]);
+  }, [esc, prog, grupo, actualizar, irA, vozAuto, hayVoz]);
 
   if (!esc || !prog || !ctx) {
-    return <Inicio grupo={grupo} setGrupo={setGrupo} escenarios={ESCENARIOS} iniciar={iniciarCaso} />;
+    return <Inicio grupo={grupo} setGrupo={setGrupo} escenarios={ESCENARIOS} iniciar={iniciarCaso} nAudios={nAudios} />;
   }
 
   const pasoIdx = Math.min(Math.max(prog.paso, 1), PASOS.length) - 1;
@@ -158,7 +162,7 @@ export default function App() {
           <span className={'reloj' + (min >= DURACION_CLASE_MIN ? ' alerta' : '')} title="Tiempo transcurrido desde que el grupo inició el caso">
             ⏱ {reloj} / {DURACION_CLASE_MIN}:00
           </span>
-          {vozDisponible() && (
+          {hayVoz && (
             <button className={'btn btn-sm' + (vozAuto ? ' on' : '')} onClick={() => { if (vozAuto) pararLectura(); setVozAuto(!vozAuto); }} title="Leer automáticamente lo que dicen los personajes">
               {vozAuto ? '🔊 Voz automática' : '🔈 Voz manual'}
             </button>

@@ -1,6 +1,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import type { Animo, KpiDef, Personaje, Voz } from '../types';
 import { detener, hablar, vozDisponible } from '../lib/voz';
+import { tieneAudio } from '../lib/audio';
 import { clp, horaDesdeDecimal } from '../lib/datos';
 
 export const ANIMOS: Record<Animo, { emoji: string; label: string }> = {
@@ -65,11 +66,18 @@ export function useHablando() {
   return h;
 }
 
-export function leer(clave: string, parrafos: string[], voz: Voz, idPersonaje: string) {
+/** Lee en voz alta. `audio` es la clave del MP3 grabado (ver lib/claves.ts). */
+export function leer(clave: string, parrafos: string[], voz: Voz, idPersonaje: string, audio?: string) {
   setHablando(clave);
-  hablar(parrafos, voz, idPersonaje, () => {
-    if (hablandoGlobal === clave) setHablando(null);
-  });
+  hablar(
+    parrafos,
+    voz,
+    idPersonaje,
+    () => {
+      if (hablandoGlobal === clave) setHablando(null);
+    },
+    audio,
+  );
 }
 
 export function pararLectura() {
@@ -77,15 +85,16 @@ export function pararLectura() {
   setHablando(null);
 }
 
-export function BotonVoz({ clave, parrafos, voz, idPersonaje, etiqueta = 'Escuchar' }: { clave: string; parrafos: string[]; voz: Voz; idPersonaje: string; etiqueta?: string }) {
+export function BotonVoz({ clave, parrafos, voz, idPersonaje, audio, etiqueta = 'Escuchar' }: { clave: string; parrafos: string[]; voz: Voz; idPersonaje: string; audio?: string; etiqueta?: string }) {
   const h = useHablando();
-  if (!vozDisponible()) return null;
+  const grabado = tieneAudio(audio, parrafos);
+  if (!vozDisponible() && !grabado) return null;
   const activo = h === clave;
   return (
     <button
       className={'btn btn-voz' + (activo ? ' activo' : '')}
-      onClick={() => (activo ? pararLectura() : leer(clave, parrafos, voz, idPersonaje))}
-      title={activo ? 'Detener lectura' : 'Leer en voz alta'}
+      onClick={() => (activo ? pararLectura() : leer(clave, parrafos, voz, idPersonaje, audio))}
+      title={activo ? 'Detener' : grabado ? 'Escuchar (voz grabada)' : 'Escuchar (voz del navegador)'}
     >
       {activo ? '■ Detener' : '▶ ' + etiqueta}
     </button>

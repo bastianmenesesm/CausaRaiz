@@ -58,7 +58,9 @@ Luego decide:
 - `clave: true`: marca para uso docente (no se muestra al alumno).
 - Los `id` de pregunta deben ser únicos dentro de cada personaje.
 
-Consejos para las voces: tono bajo (0.8) y velocidad alta (1.2) suena enojado; tono alto (1.15) y velocidad baja (0.9) suena nervioso.
+Para las voces grabadas, agrega la dirección actoral del personaje en `src/data/actuacion.ts` (o un campo `actuacion: '…'` en el personaje): edad, carácter y cómo habla. Luego ejecuta `npm run voces -- --exportar`, sube el guion nuevo al cuaderno de Google Colab (celda 2, marcando «subir_nuevo») y ejecuta la celda 7: graba solo lo nuevo. El personaje recibe automáticamente una voz chilena del dataset, que puedes cambiar en la celda 4.
+
+Consejos para la voz del navegador (respaldo): tono bajo (0.8) y velocidad alta (1.2) suena enojado; tono alto (1.15) y velocidad baja (0.9) suena nervioso.
 
 ## 4. Activar el caso
 

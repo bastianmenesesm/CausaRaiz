@@ -4,7 +4,7 @@ import { almacen } from '../lib/storage';
 import { EspinaDecorativa } from '../components/ui';
 import { vozDisponible } from '../lib/voz';
 
-export function Inicio({ grupo, setGrupo, escenarios, iniciar }: { grupo: Grupo; setGrupo: (g: Grupo) => void; escenarios: Escenario[]; iniciar: (id: string) => void }) {
+export function Inicio({ grupo, setGrupo, escenarios, iniciar, nAudios = 0 }: { grupo: Grupo; setGrupo: (g: Grupo) => void; escenarios: Escenario[]; iniciar: (id: string) => void; nAudios?: number }) {
   const [sel, setSel] = useState<string | null>(null);
   const [, refrescar] = useState(0);
   const integrantesOk = grupo.integrantes.filter((x) => x.trim()).length >= 1;
@@ -48,7 +48,9 @@ export function Inicio({ grupo, setGrupo, escenarios, iniciar }: { grupo: Grupo;
           ))}
         </div>
         <p className="small" style={{ marginTop: 'auto', color: '#8193a8' }}>
-          Duración sugerida: 60 minutos · trabajo en grupo · {vozDisponible() ? 'usen audífonos o parlantes: los personajes hablan' : 'este navegador no permite voz; usen Chrome o Edge para escuchar a los personajes'}
+          Duración sugerida: 60 minutos · trabajo en grupo · {nAudios > 0 || vozDisponible() ? 'usen audífonos o parlantes: los personajes hablan' : 'este navegador no permite voz; usen Chrome o Edge para escuchar a los personajes'}
+          <br />
+          {nAudios > 0 ? 'Las voces de los personajes fueron generadas con inteligencia artificial.' : 'Las voces de los personajes son sintéticas (voz del navegador).'}
         </p>
       </section>
 

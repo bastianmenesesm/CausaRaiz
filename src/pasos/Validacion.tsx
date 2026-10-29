@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSim } from '../contexto';
+import { claveAudio } from '../lib/claves';
 import type { CausaIshikawa, Categoria6M, NivelCausa } from '../types';
 import { BotonVoz, CabeceraPaso, NavPasos, leer } from '../components/ui';
 import { Fishbone } from '../components/Fishbone';
@@ -37,7 +38,7 @@ export function Validacion() {
   const elegir = (id: string) => {
     const o = esc.opcionesCausa.find((x) => x.id === id)!;
     actualizar((p) => ({ ...p, causaRaiz: { ...p.causaRaiz, intentos: [...p.causaRaiz.intentos, id] } }));
-    if (vozAuto) leer('retro-' + id, [o.retro], gerente.voz, gerente.id);
+    if (vozAuto) leer('retro-' + id, [o.retro], gerente.voz, gerente.id, claveAudio.retro(esc.id, id));
   };
 
   const ishikawaRef: CausaIshikawa[] = Object.entries(esc.solucion.ishikawa).flatMap(([cat, lista]) =>
@@ -86,7 +87,7 @@ export function Validacion() {
             <div className={'retro ' + ultima.nivel}>
               <div className="fila separa" style={{ marginBottom: 8 }}>
                 <span className={'nivel ' + ultima.nivel}>{NIVEL_TXT[ultima.nivel]}</span>
-                <BotonVoz clave={'retro-' + ultima.id} parrafos={[ultima.retro]} voz={gerente.voz} idPersonaje={gerente.id} />
+                <BotonVoz clave={'retro-' + ultima.id} parrafos={[ultima.retro]} voz={gerente.voz} idPersonaje={gerente.id} audio={claveAudio.retro(esc.id, ultima.id)} />
               </div>
               <p style={{ fontSize: 15.5, marginBottom: 0 }}>{ultima.retro}</p>
             </div>
@@ -106,7 +107,7 @@ export function Validacion() {
         <div className="panel" style={{ marginTop: 18, borderTop: '4px solid var(--ok)' }}>
           <div className="fila separa">
             <h2>Explicación del caso</h2>
-            <BotonVoz clave="explicacion" parrafos={esc.solucion.explicacion} voz={gerente.voz} idPersonaje={gerente.id} etiqueta="Escuchar explicación" />
+            <BotonVoz clave="explicacion" parrafos={esc.solucion.explicacion} voz={gerente.voz} idPersonaje={gerente.id} audio={claveAudio.explicacion(esc.id)} etiqueta="Escuchar explicación" />
           </div>
           <div className="grid-2" style={{ marginTop: 12, alignItems: 'start' }}>
             <div>

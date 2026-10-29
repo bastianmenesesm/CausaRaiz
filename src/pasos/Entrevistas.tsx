@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useSim } from '../contexto';
+import { claveAudio } from '../lib/claves';
 import type { Animo, Personaje, TipoPersonaje } from '../types';
 import { ANIMOS, Avatar, BotonVoz, CabeceraPaso, NavPasos, leer } from '../components/ui';
 
@@ -35,7 +36,7 @@ export function Entrevistas() {
   const seleccionar = (per: Personaje) => {
     setSelId(per.id);
     setPensando(null);
-    if (vozAuto && !(prog.conversaciones[per.id]?.length)) leer('saludo-' + per.id, per.saludo, per.voz, per.id);
+    if (vozAuto && !(prog.conversaciones[per.id]?.length)) leer('saludo-' + per.id, per.saludo, per.voz, per.id, claveAudio.saludo(esc.id, per.id));
   };
 
   const preguntar = (qid: string) => {
@@ -45,7 +46,7 @@ export function Entrevistas() {
     setTimeout(() => {
       actualizar((pr) => ({ ...pr, conversaciones: { ...pr.conversaciones, [p.id]: [...(pr.conversaciones[p.id] ?? []), qid] } }));
       setPensando(null);
-      if (vozAuto) leer(`r-${p.id}-${qid}`, q.respuesta, p.voz, p.id);
+      if (vozAuto) leer(`r-${p.id}-${qid}`, q.respuesta, p.voz, p.id, claveAudio.respuesta(esc.id, p.id, qid));
     }, 650);
   };
 
@@ -128,7 +129,7 @@ export function Entrevistas() {
                 <p key={i}>{t}</p>
               ))}
               <div className="acciones">
-                <BotonVoz clave={'saludo-' + p.id} parrafos={p.saludo} voz={p.voz} idPersonaje={p.id} />
+                <BotonVoz clave={'saludo-' + p.id} parrafos={p.saludo} voz={p.voz} idPersonaje={p.id} audio={claveAudio.saludo(esc.id, p.id)} />
               </div>
             </div>
             {hechas.map((qid) => {
@@ -144,7 +145,7 @@ export function Entrevistas() {
                       <p key={i}>{t}</p>
                     ))}
                     <div className="acciones">
-                      <BotonVoz clave={`r-${p.id}-${qid}`} parrafos={q.respuesta} voz={p.voz} idPersonaje={p.id} />
+                      <BotonVoz clave={`r-${p.id}-${qid}`} parrafos={q.respuesta} voz={p.voz} idPersonaje={p.id} audio={claveAudio.respuesta(esc.id, p.id, qid)} />
                       <button className="btn btn-sm" disabled={ya} onClick={() => agregarHallazgo({ fuente, personajeId: p.id, texto })}>
                         {ya ? '✓ En el cuaderno' : '📌 Anotar hallazgo'}
                       </button>
