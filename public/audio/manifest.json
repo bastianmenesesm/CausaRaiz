@@ -1,0 +1,1087 @@
+{
+ "almacenamiento/brayan/b1": {
+  "h": "48a09f5e",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/b2": {
+  "h": "77ca5772",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/b3": {
+  "h": "bfe4fb99",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/b4": {
+  "h": "6c416af6",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/b5": {
+  "h": "c3165bf9",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/b6": {
+  "h": "6ff852c0",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/b7": {
+  "h": "5314b97d",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/b8": {
+  "h": "faea8311",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/brayan/saludo": {
+  "h": "6b8231cf",
+  "proveedor": "chatterbox",
+  "voz": "clm_01208"
+ },
+ "almacenamiento/briefing": {
+  "h": "371264bf",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/explicacion": {
+  "h": "494f6185",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/ignacio/i1": {
+  "h": "0912d7b9",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "almacenamiento/ignacio/i2": {
+  "h": "70300e4b",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "almacenamiento/ignacio/i3": {
+  "h": "3c707658",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "almacenamiento/ignacio/i4": {
+  "h": "c4826260",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "almacenamiento/ignacio/i5": {
+  "h": "b1785bdf",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "almacenamiento/ignacio/i6": {
+  "h": "2c5aba35",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "almacenamiento/ignacio/saludo": {
+  "h": "1a72b362",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "almacenamiento/marisol/ma1": {
+  "h": "835c3203",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/ma2": {
+  "h": "6f5a283b",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/ma3": {
+  "h": "a2a826d1",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/ma4": {
+  "h": "eea3d8d6",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/ma5": {
+  "h": "44a24d2d",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/ma6": {
+  "h": "f29e6d40",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/ma7": {
+  "h": "de88938b",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/ma8": {
+  "h": "bcddcd0e",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/marisol/saludo": {
+  "h": "4696a38f",
+  "proveedor": "chatterbox",
+  "voz": "clf_00610"
+ },
+ "almacenamiento/oscar/o1": {
+  "h": "1212c4cc",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/oscar/o2": {
+  "h": "a9285468",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/oscar/o3": {
+  "h": "d6ea2b45",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/oscar/o4": {
+  "h": "a479dac6",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/oscar/o5": {
+  "h": "757f6b96",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/oscar/o6": {
+  "h": "1686156b",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/oscar/o7": {
+  "h": "0a4c9180",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/oscar/saludo": {
+  "h": "b3fdeb6a",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "almacenamiento/retro/a1": {
+  "h": "79afbccf",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/retro/a2": {
+  "h": "382ee235",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/retro/a3": {
+  "h": "50a9e009",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/retro/a4": {
+  "h": "79932dc7",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/retro/a5": {
+  "h": "90b84848",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/retro/a6": {
+  "h": "b372dd47",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/retro/a7": {
+  "h": "c4021370",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs1": {
+  "h": "d6820008",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs2": {
+  "h": "5ce35161",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs3": {
+  "h": "9ba1a550",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs4": {
+  "h": "71231b5c",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs5": {
+  "h": "0b72f61e",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs6": {
+  "h": "6bf201af",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs7": {
+  "h": "224d8d53",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs8": {
+  "h": "d416886f",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/rs9": {
+  "h": "aabcc861",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/rodrigo-s/saludo": {
+  "h": "c6d6d728",
+  "proveedor": "chatterbox",
+  "voz": "clm_00610"
+ },
+ "almacenamiento/sergio/s1": {
+  "h": "2f144667",
+  "proveedor": "chatterbox",
+  "voz": "clm_01523"
+ },
+ "almacenamiento/sergio/s2": {
+  "h": "85bfd984",
+  "proveedor": "chatterbox",
+  "voz": "clm_01523"
+ },
+ "almacenamiento/sergio/s3": {
+  "h": "e956abba",
+  "proveedor": "chatterbox",
+  "voz": "clm_01523"
+ },
+ "almacenamiento/sergio/s4": {
+  "h": "404feb2e",
+  "proveedor": "chatterbox",
+  "voz": "clm_01523"
+ },
+ "almacenamiento/sergio/s5": {
+  "h": "9fc68429",
+  "proveedor": "chatterbox",
+  "voz": "clm_01523"
+ },
+ "almacenamiento/sergio/s6": {
+  "h": "122d1171",
+  "proveedor": "chatterbox",
+  "voz": "clm_01523"
+ },
+ "almacenamiento/sergio/saludo": {
+  "h": "77c8d241",
+  "proveedor": "chatterbox",
+  "voz": "clm_01523"
+ },
+ "almacenamiento/valentina/saludo": {
+  "h": "f00a001a",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "almacenamiento/valentina/v1": {
+  "h": "2ab2b73b",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "almacenamiento/valentina/v2": {
+  "h": "f4d03dc9",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "almacenamiento/valentina/v3": {
+  "h": "ef8955d5",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "almacenamiento/valentina/v4": {
+  "h": "2ce7f4f3",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "almacenamiento/valentina/v5": {
+  "h": "55a6e792",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "almacenamiento/valentina/v6": {
+  "h": "2f30d6bf",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "almacenamiento/valentina/v7": {
+  "h": "f7dad4bf",
+  "proveedor": "chatterbox",
+  "voz": "clf_01523"
+ },
+ "primera-milla/andrea/a1": {
+  "h": "2cb95de6",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a10": {
+  "h": "44539926",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a2": {
+  "h": "04729151",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a3": {
+  "h": "ff56be41",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a4": {
+  "h": "136b1ae7",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a5": {
+  "h": "91ac53e2",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a6": {
+  "h": "11d41915",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a7": {
+  "h": "b54ac2ad",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a8": {
+  "h": "21ab450a",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/a9": {
+  "h": "54766f37",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/andrea/saludo": {
+  "h": "0a928e49",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/briefing": {
+  "h": "59ab5ecc",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/explicacion": {
+  "h": "d766a571",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/kevin/k1": {
+  "h": "f8a26aed",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/k2": {
+  "h": "55bdd201",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/k3": {
+  "h": "eda17b4c",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/k4": {
+  "h": "ee585c35",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/k5": {
+  "h": "8037085d",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/k6": {
+  "h": "5d7cd927",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/k7": {
+  "h": "be9b8e96",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/k8": {
+  "h": "c241db0a",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/kevin/saludo": {
+  "h": "41775c34",
+  "proveedor": "chatterbox",
+  "voz": "clm_02484"
+ },
+ "primera-milla/luis/l1": {
+  "h": "ebfa760b",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l10": {
+  "h": "e380de9c",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l2": {
+  "h": "75fd8df4",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l3": {
+  "h": "e4e5f8c5",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l4": {
+  "h": "b2254dd8",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l5": {
+  "h": "c200d29d",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l6": {
+  "h": "269867d7",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l7": {
+  "h": "bbdf059f",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l8": {
+  "h": "fe9af7f2",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/l9": {
+  "h": "9dc20fc6",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/luis/saludo": {
+  "h": "02b65df4",
+  "proveedor": "chatterbox",
+  "voz": "clm_02121"
+ },
+ "primera-milla/retro/p1": {
+  "h": "62ad617a",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/retro/p2": {
+  "h": "cdb2e9a3",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/retro/p3": {
+  "h": "6d5e00bd",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/retro/p4": {
+  "h": "f07ce5d4",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/retro/p5": {
+  "h": "ccd88d90",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/retro/p6": {
+  "h": "ba9de382",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/retro/p7": {
+  "h": "ff7c0790",
+  "proveedor": "chatterbox",
+  "voz": "clf_03397"
+ },
+ "primera-milla/ricardo/rh1": {
+  "h": "450f97d8",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh2": {
+  "h": "abcaeaeb",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh3": {
+  "h": "90cf16ec",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh4": {
+  "h": "f145ea7b",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh5": {
+  "h": "aa9fe011",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh6": {
+  "h": "a9660422",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh7": {
+  "h": "6cf3e99e",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh8": {
+  "h": "79edb2e0",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/rh9": {
+  "h": "a73567be",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/ricardo/saludo": {
+  "h": "242278ff",
+  "proveedor": "chatterbox",
+  "voz": "clm_02436"
+ },
+ "primera-milla/rosa/ro1": {
+  "h": "e3967eb7",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/ro2": {
+  "h": "3432f109",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/ro3": {
+  "h": "e274b3b5",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/ro4": {
+  "h": "d7d38e7e",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/ro5": {
+  "h": "68b0fd1e",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/ro6": {
+  "h": "01fa123d",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/ro7": {
+  "h": "35ed0ee8",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/ro8": {
+  "h": "3ed9ae0f",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/rosa/saludo": {
+  "h": "e4007ad4",
+  "proveedor": "chatterbox",
+  "voz": "clf_04310"
+ },
+ "primera-milla/tomas/saludo": {
+  "h": "6c08a192",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "primera-milla/tomas/t1": {
+  "h": "417b1f62",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "primera-milla/tomas/t2": {
+  "h": "7ea7ec23",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "primera-milla/tomas/t3": {
+  "h": "ab8d434b",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "primera-milla/tomas/t4": {
+  "h": "89421524",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "primera-milla/tomas/t5": {
+  "h": "2971a650",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "primera-milla/tomas/t6": {
+  "h": "833047b8",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/briefing": {
+  "h": "8b7d8b1e",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/carmen/ca1": {
+  "h": "24127082",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/carmen/ca2": {
+  "h": "8dcec132",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/carmen/ca3": {
+  "h": "82d98aa6",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/carmen/ca4": {
+  "h": "2441bb77",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/carmen/ca5": {
+  "h": "07ea043e",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/carmen/ca6": {
+  "h": "f9455edf",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/carmen/ca7": {
+  "h": "36becfce",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/carmen/saludo": {
+  "h": "383fd8c7",
+  "proveedor": "chatterbox",
+  "voz": "clf_07049"
+ },
+ "ultima-milla/claudia/c1": {
+  "h": "f7685ce3",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c10": {
+  "h": "2aa895db",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c11": {
+  "h": "d82a3ace",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c2": {
+  "h": "14c14899",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c3": {
+  "h": "c6188602",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c4": {
+  "h": "51c01bcf",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c4b": {
+  "h": "1deaa549",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c5": {
+  "h": "95cb5d0a",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c6": {
+  "h": "fde9de2d",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c7": {
+  "h": "50e36a32",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c8": {
+  "h": "0a54da76",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/c9": {
+  "h": "5073c6f3",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/claudia/saludo": {
+  "h": "83039cfb",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/explicacion": {
+  "h": "5b39b2ce",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/felipe/f1": {
+  "h": "5ea8e700",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f2": {
+  "h": "22dd8c41",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f3": {
+  "h": "e3fe93f6",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f4": {
+  "h": "fad38723",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f5": {
+  "h": "5b8f65d9",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f6": {
+  "h": "6dfdec72",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f7": {
+  "h": "09899c58",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f8": {
+  "h": "1b1eb29c",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/f9": {
+  "h": "e8e742bf",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/felipe/saludo": {
+  "h": "897d1637",
+  "proveedor": "chatterbox",
+  "voz": "clm_04310"
+ },
+ "ultima-milla/hector/h1": {
+  "h": "ec57357f",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/hector/h2": {
+  "h": "8db0ca2b",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/hector/h3": {
+  "h": "2a1a671d",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/hector/h4": {
+  "h": "5f1d9eb3",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/hector/h5": {
+  "h": "561dcb01",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/hector/h6": {
+  "h": "dd2d6019",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/hector/h7": {
+  "h": "a38d38c1",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/hector/saludo": {
+  "h": "b9656e75",
+  "proveedor": "chatterbox",
+  "voz": "clm_05223"
+ },
+ "ultima-milla/jonathan/j1": {
+  "h": "40bf1faa",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j10": {
+  "h": "4786856e",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j11": {
+  "h": "d8b7a00c",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j12": {
+  "h": "bc7894e1",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j13": {
+  "h": "78e48542",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j2": {
+  "h": "05251a98",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j3": {
+  "h": "dd0a5bf0",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j4": {
+  "h": "7f996583",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j5": {
+  "h": "e3bcb227",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j6": {
+  "h": "6af4acff",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j7": {
+  "h": "56f39da5",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j8": {
+  "h": "ed02254c",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/j9": {
+  "h": "e4f5b414",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/jonathan/saludo": {
+  "h": "192f17b6",
+  "proveedor": "chatterbox",
+  "voz": "clm_03034"
+ },
+ "ultima-milla/marcelo/m1": {
+  "h": "586ad9c9",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m10": {
+  "h": "76a0411e",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m11": {
+  "h": "614739b4",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m2": {
+  "h": "4dd3fef6",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m3": {
+  "h": "3b2289b6",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m4": {
+  "h": "17925ef4",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m5": {
+  "h": "fdab7a8c",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m6": {
+  "h": "f00453ff",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m7": {
+  "h": "eb98ab33",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m8": {
+  "h": "c926158d",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/m9": {
+  "h": "23073316",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/marcelo/saludo": {
+  "h": "9d8f2661",
+  "proveedor": "chatterbox",
+  "voz": "clm_03397"
+ },
+ "ultima-milla/retro/u1": {
+  "h": "f19c9ff7",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/retro/u2": {
+  "h": "f3bf1163",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/retro/u3": {
+  "h": "2369b390",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/retro/u4": {
+  "h": "8ff136da",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/retro/u5": {
+  "h": "52ff5551",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/retro/u6": {
+  "h": "4fd43360",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/retro/u7": {
+  "h": "86a4c065",
+  "proveedor": "chatterbox",
+  "voz": "clf_06136"
+ },
+ "ultima-milla/rodrigo/r1": {
+  "h": "c5db1770",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r2": {
+  "h": "e1c96b80",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r3": {
+  "h": "10ecc7f7",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r4": {
+  "h": "8e4c1662",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r5": {
+  "h": "d6a59152",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r6": {
+  "h": "adc7dc8f",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r7": {
+  "h": "a71b8eab",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r8": {
+  "h": "d90c54c7",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/r9": {
+  "h": "21fce537",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ },
+ "ultima-milla/rodrigo/saludo": {
+  "h": "e33d8dfc",
+  "proveedor": "chatterbox",
+  "voz": "clm_03349"
+ }
+}

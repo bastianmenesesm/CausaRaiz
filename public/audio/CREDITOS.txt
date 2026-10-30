@@ -1,0 +1,3 @@
+Voces generadas con Chatterbox (Resemble AI, licencia MIT).
+Voces de referencia: "Crowdsourced high-quality Chilean Spanish speech data set", Google (OpenSLR 71, https://www.openslr.org/71), licencia CC BY-SA 4.0.
+Estos audios se distribuyen bajo la misma licencia CC BY-SA 4.0.
