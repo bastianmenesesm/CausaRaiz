@@ -13,10 +13,10 @@ export function Matriz() {
   if (ideas.length === 0) {
     return (
       <>
-        <CabeceraPaso eyebrow="Paso 9 · Converger" titulo="Matriz de esfuerzo e impacto" />
+        <CabeceraPaso eyebrow="Paso 10 · Converger" titulo="Matriz de esfuerzo e impacto" />
         <div className="vacio-estado">
           Primero necesitan ideas.{' '}
-          <button className="btn btn-sm" onClick={() => irA(8)}>
+          <button className="btn btn-sm" onClick={() => irA(9)}>
             Ir a la lluvia de ideas
           </button>
         </div>
@@ -26,7 +26,7 @@ export function Matriz() {
 
   return (
     <>
-      <CabeceraPaso eyebrow="Paso 9 · Converger" titulo="Matriz de esfuerzo e impacto">
+      <CabeceraPaso eyebrow="Paso 10 · Converger" titulo="Matriz de esfuerzo e impacto">
         Evalúen cada idea de 1 a 10. <b>Impacto</b>: cuánto reduce el problema o evita que vuelva. <b>Esfuerzo</b>: costo, tiempo, personas y dificultad para implementarla. Arrastren los puntos o usen los
         controles.
       </CabeceraPaso>
@@ -133,7 +133,7 @@ export function Matriz() {
         </details>
       )}
 
-      <NavPasos atras={() => irA(8)} siguiente={() => irA(10)} textoSiguiente="Generar informe →" />
+      <NavPasos atras={() => irA(9)} siguiente={() => irA(11)} textoSiguiente="Generar informe →" />
     </>
   );
 }

@@ -5,6 +5,7 @@ import { Fishbone } from '../components/Fishbone';
 import { CUADRANTES, MatrizSvg, cuadrante, type Cuadrante } from '../components/MatrizSvg';
 import { CAMPOS_W } from './Definicion';
 import { NIVEL_TXT } from './Validacion';
+import { codigoGrupo, formatoValor, generarBase } from '../taller';
 
 const Vacio = () => <span className="vacio">Sin completar</span>;
 
@@ -33,12 +34,14 @@ export function Informe() {
       return (qa ? orden.indexOf(qa) : 9) - (qb ? orden.indexOf(qb) : 9) || b.i.impacto - a.i.impacto;
     });
   const niveles = prog.porques.niveles.filter((n) => n.texto.trim());
+  const base = generarBase(esc, grupo);
+  const taller = prog.taller ?? { respuestas: {}, descargas: 0 };
   const fecha = new Date().toLocaleDateString('es-CL', { day: '2-digit', month: 'long', year: 'numeric' });
 
   return (
     <>
       <CabeceraPaso
-        eyebrow="Paso 10 · Entrega"
+        eyebrow="Paso 11 · Entrega"
         titulo="Informe final"
         derecha={
           <button className="btn btn-primary no-print" onClick={() => window.print()}>
@@ -97,7 +100,40 @@ export function Informe() {
           </tbody>
         </table>
 
-        <h2>2. Evidencias recopiladas ({prog.hallazgos.length})</h2>
+        <h2>2. Taller de datos</h2>
+        <p className="small muted">
+          Base del grupo: código <b>{codigoGrupo(grupo, esc.id)}</b> · {taller.descargas ? `descargada ${taller.descargas} ${taller.descargas === 1 ? 'vez' : 'veces'}` : 'no descargada'} ·{' '}
+          {base.retos.filter((r) => taller.respuestas[r.id]?.ok).length} de {base.retos.length} indicadores correctos.
+        </p>
+        <table className="bloque">
+          <thead>
+            <tr>
+              <th>Indicador</th>
+              <th>Valor del grupo</th>
+              <th>Resultado</th>
+              <th>Valor de referencia (docente)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {base.retos.map((r) => {
+              const a = taller.respuestas[r.id];
+              return (
+                <tr key={r.id}>
+                  <td>{r.indicador}</td>
+                  <td>{a?.valor ? a.valor + (r.unidad === 'CLP' || r.unidad === '%' ? '' : ' ' + r.unidad) : <Vacio />}</td>
+                  <td>{!a?.intentos ? '—' : a.ok ? `✓ correcto (${a.intentos} ${a.intentos === 1 ? 'intento' : 'intentos'})` : `✗ ${a.intentos} ${a.intentos === 1 ? 'intento' : 'intentos'}`}</td>
+                  <td>{formatoValor(r.respuesta, r)}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+        <div className="bloque" style={{ marginTop: 10 }}>
+          <b className="small">Dashboard del grupo</b>
+          {taller.dashboard ? <img src={taller.dashboard} alt="Dashboard del grupo" className="dashboard-img" /> : <div><Vacio /></div>}
+        </div>
+
+        <h2>3. Evidencias recopiladas ({prog.hallazgos.length})</h2>
         <p className="small muted">
           Entrevistas realizadas: {totalPreg} preguntas a {Object.values(prog.conversaciones).filter((l) => l.length).length} de {esc.personajes.length} personas (
           {esc.personajes
@@ -129,7 +165,7 @@ export function Informe() {
           </table>
         )}
 
-        <h2>3. Diagrama de Ishikawa</h2>
+        <h2>4. Diagrama de Ishikawa</h2>
         <div className="bloque">
           <Fishbone efecto={prog.ishikawa.efecto} causas={prog.ishikawa.causas} />
         </div>
@@ -157,7 +193,7 @@ export function Informe() {
           </table>
         )}
 
-        <h2>4. Análisis de los 5 Porqués</h2>
+        <h2>5. Análisis de los 5 Porqués</h2>
         <table className="bloque">
           <tbody>
             <tr>
@@ -184,7 +220,7 @@ export function Informe() {
           </tbody>
         </table>
 
-        <h2>5. Causa raíz</h2>
+        <h2>6. Causa raíz</h2>
         <div className="bloque">
           <p style={{ fontSize: 15 }}>
             <b>Causa raíz identificada por el grupo:</b> {prog.causaRaiz.texto.trim() || <Vacio />}
@@ -199,7 +235,7 @@ export function Informe() {
           </p>
         </div>
 
-        <h2>6. Lluvia de ideas ({prog.ideas.length} ideas)</h2>
+        <h2>7. Lluvia de ideas ({prog.ideas.length} ideas)</h2>
         {prog.ideas.length === 0 ? (
           <Vacio />
         ) : (
@@ -212,7 +248,7 @@ export function Informe() {
           </ol>
         )}
 
-        <h2>7. Matriz de esfuerzo e impacto y priorización</h2>
+        <h2>8. Matriz de esfuerzo e impacto y priorización</h2>
         {prog.ideas.length > 0 && (
           <div className="bloque" style={{ display: 'grid', gridTemplateColumns: '360px 1fr', gap: 18, alignItems: 'start' }}>
             <MatrizSvg ideas={prog.ideas} soloLectura />
@@ -257,7 +293,7 @@ export function Informe() {
         </p>
       </article>
 
-      <NavPasos atras={() => irA(9)} />
+      <NavPasos atras={() => irA(10)} />
     </>
   );
 }

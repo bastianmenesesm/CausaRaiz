@@ -23,7 +23,7 @@ export function Definicion() {
 
   return (
     <>
-      <CabeceraPaso eyebrow="Paso 3 · 5W2H" titulo="Definir el problema">
+      <CabeceraPaso eyebrow="Paso 4 · 5W2H" titulo="Definir el problema">
         Un problema bien definido es la mitad de la solución. Usen solo lo que muestran los datos: todavía <b>no</b> sabemos la causa.
       </CabeceraPaso>
 
@@ -74,7 +74,7 @@ export function Definicion() {
         </span>
       </div>
 
-      <NavPasos atras={() => irA(2)} siguiente={() => irA(4)} textoSiguiente="Ir a las entrevistas →" />
+      <NavPasos atras={() => irA(3)} siguiente={() => irA(5)} textoSiguiente="Ir a las entrevistas →" />
     </>
   );
 }

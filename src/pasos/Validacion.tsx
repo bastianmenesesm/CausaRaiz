@@ -47,7 +47,7 @@ export function Validacion() {
 
   return (
     <>
-      <CabeceraPaso eyebrow="Paso 7 · Contrastar" titulo="Validar la causa raíz">
+      <CabeceraPaso eyebrow="Paso 8 · Contrastar" titulo="Validar la causa raíz">
         Escriban su causa raíz con sus palabras y luego elijan la afirmación que más se le parece. {gerente.nombre.split(' ')[0]} les dirá si llegaron al fondo o si se quedaron en un síntoma. Pueden
         intentar las veces que necesiten.
       </CabeceraPaso>
@@ -132,7 +132,7 @@ export function Validacion() {
         </div>
       )}
 
-      <NavPasos atras={() => irA(6)} siguiente={() => irA(8)} textoSiguiente="Lluvia de ideas →" />
+      <NavPasos atras={() => irA(7)} siguiente={() => irA(9)} textoSiguiente="Lluvia de ideas →" />
     </>
   );
 }

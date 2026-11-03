@@ -48,7 +48,7 @@ export function Inicio({ grupo, setGrupo, escenarios, iniciar, nAudios = 0 }: { 
           ))}
         </div>
         <p className="small" style={{ marginTop: 'auto', color: '#8193a8' }}>
-          Duración sugerida: 60 minutos · trabajo en grupo · {nAudios > 0 || vozDisponible() ? 'usen audífonos o parlantes: los personajes hablan' : 'este navegador no permite voz; usen Chrome o Edge para escuchar a los personajes'}
+          Duración sugerida: 90 minutos · trabajo en grupo · {nAudios > 0 || vozDisponible() ? 'usen audífonos o parlantes: los personajes hablan' : 'este navegador no permite voz; usen Chrome o Edge para escuchar a los personajes'}
           <br />
           {nAudios > 0 ? 'Las voces de los personajes fueron generadas con inteligencia artificial (Chatterbox), a partir de voces chilenas del dataset OpenSLR 71 de Google (CC BY-SA 4.0).' : 'Las voces de los personajes son sintéticas (voz del navegador).'}
         </p>
@@ -88,7 +88,7 @@ export function Inicio({ grupo, setGrupo, escenarios, iniciar, nAudios = 0 }: { 
         <div className="pila">
           {escenarios.map((e) => {
             const p = almacen.progreso(e.id);
-            const estado = p ? `En curso · paso ${p.paso} de 10` : 'Nuevo';
+            const estado = p ? `En curso · paso ${p.paso} de 11` : 'Nuevo';
             return (
               <button key={e.id} className={'tarjeta-caso' + (sel === e.id ? ' sel' : '')} onClick={() => setSel(e.id)}>
                 <span className="franja" style={{ background: e.color }} />

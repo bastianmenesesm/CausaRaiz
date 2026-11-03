@@ -39,7 +39,7 @@ export function IshikawaPaso() {
 
   return (
     <>
-      <CabeceraPaso eyebrow="Paso 5 · Diagrama causa-efecto" titulo="Ishikawa · 6M">
+      <CabeceraPaso eyebrow="Paso 6 · Diagrama causa-efecto" titulo="Ishikawa · 6M">
         Ordenen las posibles causas en las seis familias. Escriban cada causa como un hecho concreto («el software usa 4 min por parada»), no como un juicio («la gente es floja»). Marquen con ★ las
         causas más probables según la evidencia.
       </CabeceraPaso>
@@ -159,7 +159,7 @@ export function IshikawaPaso() {
         </span>
       </div>
 
-      <NavPasos atras={() => irA(4)} siguiente={() => irA(6)} textoSiguiente="Aplicar los 5 Porqués →" />
+      <NavPasos atras={() => irA(5)} siguiente={() => irA(7)} textoSiguiente="Aplicar los 5 Porqués →" />
     </>
   );
 }

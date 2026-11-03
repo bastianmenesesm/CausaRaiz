@@ -55,7 +55,7 @@ export function Entrevistas() {
   return (
     <>
       <CabeceraPaso
-        eyebrow="Paso 4 · Ir al gemba"
+        eyebrow="Paso 5 · Ir al gemba"
         titulo="Entrevistas"
         derecha={
           <div className="panel-plano small" style={{ textAlign: 'right' }}>
@@ -185,7 +185,7 @@ export function Entrevistas() {
         </span>
       </div>
 
-      <NavPasos atras={() => irA(3)} siguiente={() => irA(5)} textoSiguiente="Construir el Ishikawa →" />
+      <NavPasos atras={() => irA(4)} siguiente={() => irA(6)} textoSiguiente="Construir el Ishikawa →" />
     </>
   );
 }

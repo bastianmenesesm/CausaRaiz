@@ -181,7 +181,22 @@ export interface Progreso {
   porques: { problema: string; niveles: NivelPorque[] };
   causaRaiz: { texto: string; intentos: string[] };
   ideas: Idea[];
+  /** Taller de datos: respuestas a los cálculos y captura del dashboard del grupo. */
+  taller?: TallerProgreso;
   inicioMs?: number;
+}
+
+export interface RespuestaReto {
+  valor: string;
+  intentos: number;
+  ok: boolean;
+}
+
+export interface TallerProgreso {
+  respuestas: Record<string, RespuestaReto>;
+  /** Imagen del dashboard (JPEG en data URL, reducida en el navegador). */
+  dashboard?: string;
+  descargas: number;
 }
 
 export interface Grupo {

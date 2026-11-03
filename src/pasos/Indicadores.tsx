@@ -312,7 +312,7 @@ export function Indicadores() {
           </div>
         ))}
 
-      <NavPasos atras={() => irA(1)} siguiente={() => irA(3)} textoSiguiente="Definir el problema →" />
+      <NavPasos atras={() => irA(1)} siguiente={() => irA(3)} textoSiguiente="Taller de datos →" />
     </>
   );
 }

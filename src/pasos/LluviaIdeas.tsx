@@ -42,7 +42,7 @@ export function LluviaIdeas() {
   return (
     <>
       <CabeceraPaso
-        eyebrow="Paso 8 · Divergir"
+        eyebrow="Paso 9 · Divergir"
         titulo="Lluvia de ideas"
         derecha={
           <div className="panel-plano fila" style={{ gap: 12 }}>
@@ -69,7 +69,7 @@ export function LluviaIdeas() {
           ¿Cómo podríamos lograr que «{prog.causaRaiz.texto.trim() || 'nuestra causa raíz'}» no vuelva a ocurrir?
         </p>
         {!prog.causaRaiz.texto.trim() && (
-          <button className="btn btn-sm" style={{ marginTop: 8 }} onClick={() => irA(7)}>
+          <button className="btn btn-sm" style={{ marginTop: 8 }} onClick={() => irA(8)}>
             Escribir la causa raíz primero
           </button>
         )}
@@ -141,7 +141,7 @@ export function LluviaIdeas() {
         </>
       )}
 
-      <NavPasos atras={() => irA(7)} siguiente={() => irA(9)} textoSiguiente="Priorizar en la matriz →" />
+      <NavPasos atras={() => irA(8)} siguiente={() => irA(10)} textoSiguiente="Priorizar en la matriz →" />
     </>
   );
 }

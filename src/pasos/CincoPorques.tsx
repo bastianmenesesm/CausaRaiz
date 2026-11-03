@@ -21,7 +21,7 @@ export function CincoPorques() {
 
   return (
     <>
-      <CabeceraPaso eyebrow="Paso 6 · Profundizar" titulo="5 Porqués">
+      <CabeceraPaso eyebrow="Paso 7 · Profundizar" titulo="5 Porqués">
         Partan del problema y pregunten «¿por qué?» hasta llegar a una causa que, si se corrige, evita que el problema vuelva a ocurrir. Cada respuesta debe apoyarse en evidencia. No siempre son exactamente
         cinco: pueden ser cuatro, seis o siete.
       </CabeceraPaso>
@@ -113,7 +113,7 @@ export function CincoPorques() {
         </div>
       </div>
 
-      <NavPasos atras={() => irA(5)} siguiente={() => irA(7)} textoSiguiente="Validar la causa raíz →" />
+      <NavPasos atras={() => irA(6)} siguiente={() => irA(8)} textoSiguiente="Validar la causa raíz →" />
     </>
   );
 }

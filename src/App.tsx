@@ -12,6 +12,7 @@ import { Inicio } from './pasos/Inicio';
 import { Briefing } from './pasos/Briefing';
 import { Indicadores } from './pasos/Indicadores';
 import { Definicion } from './pasos/Definicion';
+import { TallerDatos } from './pasos/TallerDatos';
 import { Entrevistas } from './pasos/Entrevistas';
 import { IshikawaPaso } from './pasos/IshikawaPaso';
 import { CincoPorques } from './pasos/CincoPorques';
@@ -30,6 +31,12 @@ interface PasoDef {
 export const PASOS: PasoDef[] = [
   { titulo: 'Briefing del caso', minutos: 3, hecho: (p) => p.paso > 1, Comp: Briefing },
   { titulo: 'Indicadores', minutos: 8, hecho: (p) => p.hallazgos.some((h) => h.fuente === 'Indicadores' || h.fuente === 'Bitácora'), Comp: Indicadores },
+  {
+    titulo: 'Taller de datos',
+    minutos: 25,
+    hecho: (p) => !!p.taller?.dashboard && Object.values(p.taller.respuestas).filter((r) => r.ok).length >= 4,
+    Comp: TallerDatos,
+  },
   { titulo: 'Definir el problema (5W2H)', minutos: 7, hecho: (p) => Object.values(p.w5h2).filter((v) => v.trim()).length >= 6, Comp: Definicion },
   { titulo: 'Entrevistas', minutos: 17, hecho: (p) => Object.values(p.conversaciones).reduce((a, l) => a + l.length, 0) >= 12, Comp: Entrevistas },
   { titulo: 'Diagrama de Ishikawa', minutos: 7, hecho: (p) => p.ishikawa.causas.length >= 6, Comp: IshikawaPaso },
@@ -40,7 +47,7 @@ export const PASOS: PasoDef[] = [
   { titulo: 'Informe final (PDF)', minutos: 0, hecho: () => false, Comp: Informe },
 ];
 
-const DURACION_CLASE_MIN = 60;
+const DURACION_CLASE_MIN = 90;
 
 function useReloj(inicio?: number) {
   const [ahora, setAhora] = useState(Date.now());
@@ -176,7 +183,7 @@ export default function App() {
         </header>
 
         <nav className="sidebar">
-          <h4>Recorrido · 60 min</h4>
+          <h4>Recorrido · {DURACION_CLASE_MIN} min</h4>
           {PASOS.map((p, i) => {
             const activo = i === pasoIdx;
             const hecho = !activo && p.hecho(prog, esc);
